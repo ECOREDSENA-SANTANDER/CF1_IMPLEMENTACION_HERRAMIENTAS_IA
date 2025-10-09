@@ -7,7 +7,11 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
+    .row.align-items-center.mb-5
+      .col-lg-auto.mb-0.mb-md-4(data-aos="fade-left")
+        img.img-a.img-t(src="@/assets/curso/temas/1.svg")
+      .col-lg(data-aos="fade-right")
+        p.mb-0 Este componente formativo permite comprender los conceptos fundamentales, la historia y las aplicaciones actuales de la Inteligencia Artificial (IA). Presenta los principales elementos que hacen posible que una máquina realice tareas inteligentes, como el reconocimiento de voz, la toma de decisiones y el procesamiento del lenguaje natural. Asimismo, aborda las ventajas y los retos éticos asociados a la IA, junto con los flujos de proceso que guían su funcionamiento. El contenido incluye ejemplos prácticos de automatización con IA, como #[i chatbots] y asistentes virtuales, y ofrece una visión sobre el futuro de esta tecnología y su impacto en diferentes sectores, con un enfoque didáctico que facilita la comprensión de estudiantes principiantes.     
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
