@@ -5,7 +5,6 @@
   
       #Actividad_Completar_Frases
       //<ActividadCompletar :parrafo="parrafo"/>
-
       #Actividad_Cuestionario
       <Actividad :cuestionario="cuestionario"/>
   
