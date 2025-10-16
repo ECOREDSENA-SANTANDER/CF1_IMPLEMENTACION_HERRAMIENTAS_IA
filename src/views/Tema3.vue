@@ -93,7 +93,7 @@
           .col-lg-12.col-md-7.col-6
             img.img-a.img-t(src='@/assets/curso/temas/t3/10.png' alt='')
         h4 UiPath
-        p Plataforma líder en Automatización Robótica de Procesos (RPA) que combina bots y agentes de IA para gestionar tareas tanto manuales como cognitivas. Permite automatizar flujos empresariales completos y escalar procesos de manera eficiente.
+        p Plataforma líder en Automatización Robótica de Procesos (RPA) que combina #[em bots] y agentes de IA para gestionar tareas tanto manuales como cognitivas. Permite automatizar flujos empresariales completos y escalar procesos de manera eficiente.
 
       .tarjeta.bg-color-6.p-4.text-center
         .row.justify-content-center.mb-3
@@ -121,7 +121,7 @@
           .col-lg-12.col-md-7.col-6
             img.img-a.img-t(src='@/assets/curso/temas/t3/14.png' alt='')
         h4 Marketo
-        p Plataforma de automatización de marketing impulsada por IA que permite segmentar audiencias, personalizar campañas y optimizar la eficacia de las estrategias de marketing digital.
+        p Plataforma de automatización de #[em marketing] impulsada por IA que permite segmentar audiencias, personalizar campañas y optimizar la eficacia de las estrategias de #[em marketing] digital.
 
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')

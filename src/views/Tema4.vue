@@ -48,7 +48,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/t4/6.png', alt='')          
-        p #[b Capa de ejecución:] implementa las acciones decididas, como enviar alertas, generar informes o activar bots automáticos. 
+        p #[b Capa de ejecución:] implementa las acciones decididas, como enviar alertas, generar informes o activar #[em bots] automáticos. 
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-auto.mb-0(data-aos="fade-left")
@@ -83,7 +83,7 @@
       .col-lg-4
         p(data-aos='fade-down') Para garantizar la trazabilidad y el control, los sistemas suelen operar bajo arquitecturas que registran cada decisión, supervisan el flujo y permiten intervenir si es necesario, integrando capacidades humanas de supervisión cuando es preciso.
 
-        p(data-aos='fade-down').mb-0  Un ejemplo de automatización con inteligencia artificial es el uso de #[i chatbots] en la atención al cliente, que permiten responder consultas y resolver problemas de usuarios las 24 horas al día sin intervención humana.
+        p(data-aos='fade-down').mb-0  Un ejemplo de automatización con inteligencia artificial es el uso de #[em chatbots] en la atención al cliente, que permiten responder consultas y resolver problemas de usuarios las 24 horas al día sin intervención humana.
 
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.deco
@@ -98,7 +98,7 @@
               figure
                 img(src="@/assets/curso/temas/t4/11.svg", alt="alt").img100
             .col
-              p Un #[i chatbot] con IA atiende a los clientes a través de mensajería instantánea, respondiendo preguntas frecuentes sobre productos, procesando reservas, atendiendo reclamaciones o guiando en procesos de compra.
+              p Un #[em chatbot] con IA atiende a los clientes a través de mensajería instantánea, respondiendo preguntas frecuentes sobre productos, procesando reservas, atendiendo reclamaciones o guiando en procesos de compra.
         
         .crd.crd--avatarHorizontal.p-right.py-4
           .row.align-items-center
@@ -129,7 +129,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Video: Qué son los chatbots, para qué sirven y qué tipos de chatbots hay | Nuevas tecnologías
+                  h4.mb-1 Video: Qué son los #[em chatbots], para qué sirven y qué tipos de #[em chatbots] hay | Nuevas tecnologías
                   p.mb-0 Se invita a explorar en siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=Q6aNuo39nEM&ab_channel=GCFAprendeLibre')" target="_blank")

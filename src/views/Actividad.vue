@@ -24,8 +24,8 @@ export default {
       tema: 'Inteligencia Artificial y productividad',
       titulo: 'Cuestionario',
       introduccion:
-        'Evaluar y reforzar el conocimiento adquirido sobre la inteligencia artificial y sus conceptos relacionados.',
-      barajarPreguntas: true,
+        'Objetivo: evaluar y reforzar el conocimiento adquirido sobre la inteligencia artificial y sus conceptos relacionados.',
+      barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
@@ -34,7 +34,7 @@ export default {
           texto:
             'La inteligencia artificial busca que las máquinas imiten tareas que normalmente requieren inteligencia humana.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -55,7 +55,7 @@ export default {
           texto:
             'El aprendizaje automático es una disciplina que solo permite a las máquinas ejecutar tareas programadas explícitamente.',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -76,7 +76,7 @@ export default {
           texto:
             'Los datos son el "alimento" fundamental para que la inteligencia artificial pueda aprender y mejorar.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -97,7 +97,7 @@ export default {
           texto:
             'Los algoritmos en IA son conjuntos de instrucciones que permiten a la máquina aprender de los datos.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -118,7 +118,7 @@ export default {
           texto:
             'La IA no necesita de retroalimentación para mejorar su precisión.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -137,9 +137,9 @@ export default {
         {
           id: 6,
           texto:
-            'Un <i>chatbot</i> con IA puede interactuar con clientes mediante lenguaje natural para resolver consultas.',
+            'Un <em>chatbot</em> con IA puede interactuar con clientes mediante lenguaje natural para resolver consultas.',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -160,7 +160,7 @@ export default {
           texto:
             'La ética en IA es un aspecto secundario y no es necesario considerarla en el desarrollo de tecnologías.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -181,7 +181,7 @@ export default {
           texto:
             'La información no estructurada incluye datos como textos, imágenes y videos.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -202,7 +202,7 @@ export default {
           texto:
             'Los agentes autónomos operan bajo supervisión humana constante y no pueden tomar decisiones independientes.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -223,7 +223,7 @@ export default {
           texto:
             'La visión por computadora permite a las máquinas interpretar imágenes y videos para identificar objetos y escenas.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',

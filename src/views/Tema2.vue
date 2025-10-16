@@ -29,11 +29,11 @@
           .div(titulo="Selección de características o variables")
             p Se identifican los aspectos relevantes de los datos para el problema que se desea resolver. Por ejemplo, en un modelo que predice el precio de una vivienda, variables como ubicación, tamaño y número de habitaciones son más útiles que el color de las paredes.
           .div(titulo="Entrenamiento del modelo")
-            p Aquí se utilizan algoritmos matemáticos y de Machine Learning que, alimentados con los datos preparados, aprenden a encontrar patrones y relaciones entre las variables. Durante este proceso, el modelo ajusta sus parámetros para reducir errores, repitiéndose miles de veces hasta alcanzar un nivel aceptable de precisión.
+            p Aquí se utilizan algoritmos matemáticos y de #[em Machine Learning] que, alimentados con los datos preparados, aprenden a encontrar patrones y relaciones entre las variables. Durante este proceso, el modelo ajusta sus parámetros para reducir errores, repitiéndose miles de veces hasta alcanzar un nivel aceptable de precisión.
           .div(titulo="Evaluación del modelo")
             p El modelo se prueba con datos que nunca ha visto antes. Esto permite comprobar si realmente aprendió a generalizar o si simplemente memorizó los ejemplos de entrenamiento. Esta etapa es esencial para garantizar que funcione correctamente en el mundo real.
           .div(titulo="Implementación o despliegue")
-            p Una vez validado, el modelo se integra en aplicaciones concretas: chatbots en páginas web, asistentes de voz en celulares, sistemas de recomendación o reconocimiento facial en aeropuertos.
+            p Una vez validado, el modelo se integra en aplicaciones concretas: #[em chatbots] en páginas web, asistentes de voz en celulares, sistemas de recomendación o reconocimiento facial en aeropuertos.
           .div(titulo="Monitorización y retroalimentación")
             p El sistema es observado de forma continua para detectar errores, mejorar su precisión y adaptarse a cambios en los datos o en el entorno. Gracias a este ciclo, la IA no permanece estática, sino que evoluciona y se actualiza constantemente.
           .div(titulo="Optimización")
@@ -68,7 +68,7 @@
       .col-lg-auto.mb-0.mb-md-4(data-aos="fade-left")
         img.img-a.img-t(src="@/assets/curso/temas/t2/7.png")
       .col-lg(data-aos="fade-right")
-        p.mb-0 Los flujos de proceso en inteligencia artificial se aplican en la automatización de tareas como la extracción de datos, la gestión de inventarios, la atención al cliente, la incorporación de nuevos usuarios y el análisis predictivo. Estos flujos permiten que los agentes de IA ejecuten actividades de forma autónoma, integrando distintos módulos como chatbots, motores de recomendación o sistemas de análisis de información, lo que incrementa la eficiencia y reduce la intervención humana en tareas repetitivas o de gran volumen.   
+        p.mb-0 Los flujos de proceso en inteligencia artificial se aplican en la automatización de tareas como la extracción de datos, la gestión de inventarios, la atención al cliente, la incorporación de nuevos usuarios y el análisis predictivo. Estos flujos permiten que los agentes de IA ejecuten actividades de forma autónoma, integrando distintos módulos como #[em chatbots], motores de recomendación o sistemas de análisis de información, lo que incrementa la eficiencia y reduce la intervención humana en tareas repetitivas o de gran volumen.   
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
