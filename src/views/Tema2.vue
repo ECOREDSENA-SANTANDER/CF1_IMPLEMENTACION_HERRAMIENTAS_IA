@@ -23,7 +23,7 @@
       .col-lg-8.mb-3.mb-lg-0  
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg1")
           .div(titulo="Recolección de  datos")
-            p Los datos son la materia prima de cualquier sistema de IA. Sin ellos, la máquina no puede aprender. Pueden provenir de sensores, cámaras, micrófonos, bases de datos, registros históricos o incluso de la información que generan los usuarios en internet. 
+            p Los datos son la materia prima de cualquier sistema de IA. Sin ellos, la máquina no puede aprender. Pueden provenir de sensores, cámaras, micrófonos, bases de datos, registros históricos o incluso de la información que generan los usuarios en Internet. 
           .div(titulo="Preparación o limpieza de datos")
             p Una vez recopilada la información, se eliminan errores, duplicados e inconsistencias, y se organiza en un formato adecuado. Esto es clave, ya que los datos en bruto suelen estar desordenados y llenos de “ruido”. 
           .div(titulo="Selección de características o variables")
@@ -38,31 +38,29 @@
             p El sistema es observado de forma continua para detectar errores, mejorar su precisión y adaptarse a cambios en los datos o en el entorno. Gracias a este ciclo, la IA no permanece estática, sino que evoluciona y se actualiza constantemente.
           .div(titulo="Optimización")
             p En muchos casos, se realizan ajustes adicionales para mejorar la velocidad, la eficiencia y el consumo de recursos, logrando resultados más precisos y sostenibles.            
-      .col-lg-4
-        figure
-          img.img-a.img-t(src="@/assets/curso/temas/t2/2.png", alt="")   
+      .col-lg-4.d-none.d-lg-block
+        img.img-a.img-t(src="@/assets/curso/temas/t2/2.png", alt="")   
 
-    .row.justify-content-center.align-items-end.mb-5
-      .col-lg-auto.mb-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-end.mb-4
+      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-left")
         img.img-a.img-t(src="@/assets/curso/temas/t2/3.png")
-      .col-lg
+      .col-lg-7(data-aos="fade-right")
         .row.align-items-center
-          .col-lg-auto.my-0.my-md-4.my-sm-4(data-aos="fade-right")
+          .col-lg-auto.my-0.my-md-4.my-sm-4.d-none.d-lg-block
             img.img-a.img-t(src="@/assets/curso/temas/t2/4.svg")
-          .col-lg(data-aos="fade-left")
+          .col-lg
             p.mb-0 Este conjunto de pasos constituye un ciclo iterativo, ya que puede repetirse una y otra vez. Así es como los sistemas de IA parecen “aprender” con el tiempo: no porque piensen como los humanos, sino porque constantemente pasan por procesos de aprendizaje y corrección.                      
-        p(data-aos="fade-down") De hecho, este flujo guarda cierta analogía con el aprendizaje humano: primero recibimos información, la organizamos, seleccionamos lo más importante, practicamos hasta comprenderlo, comprobamos lo aprendido en nuevas situaciones y, si nos equivocamos, corregimos para hacerlo mejor la próxima vez.
+        p De hecho, este flujo guarda cierta analogía con el aprendizaje humano: primero recibimos información, la organizamos, seleccionamos lo más importante, practicamos hasta comprenderlo, comprobamos lo aprendido en nuevas situaciones y, si nos equivocamos, corregimos para hacerlo mejor la próxima vez.
 
     .row.justify-content-center.mb-5
       .col-lg-5
         .bg-color-4.br-1.p-3.h-100.j1(data-aos="fade-down")
           p.mb-0 En conclusión, los flujos de proceso en IA son el núcleo de cualquier sistema inteligente. Comprenderlos ayuda a desmitificar la IA, mostrando que detrás de su aparente complejidad existe un conjunto ordenado de pasos que transforman datos en conocimiento y conocimiento en acciones útiles para la sociedad.   
-      .col-lg-3(data-aos="fade-left")
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img.mov(src="@/assets/curso/temas/t2/5.png")
       .col-lg-4
         img.img-t.mb-3(data-aos='fade-up')(src="@/assets/curso/temas/t2/6.png")
-
-        p(data-aos='fade-down').mb-0 Finalmente, estos procesos suelen representarse mediante diagramas de flujo, que muestran de manera visual la secuencia de pasos, decisiones y acciones. Hoy en día, incluso existen herramientas asistidas por IA que facilitan la creación de diagramas claros y profesionales, haciendo más comprensible el funcionamiento interno de los sistemas inteligentes.  
+        p.mb-0 Finalmente, estos procesos suelen representarse mediante diagramas de flujo, que muestran de manera visual la secuencia de pasos, decisiones y acciones. Hoy en día, incluso existen herramientas asistidas por IA que facilitan la creación de diagramas claros y profesionales, haciendo más comprensible el funcionamiento interno de los sistemas inteligentes.  
 
     .row.align-items-center.mb-5
       .col-lg-auto.mb-0.mb-md-4(data-aos="fade-left")
@@ -74,53 +72,44 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Beneficios de los flujos de proceso en IA
 
-    p(data-aos="fade-down").mb-5 Los flujos de proceso en inteligencia artificial no solo transforman la manera en que las organizaciones gestionan sus tareas, sino que también aportan ventajas significativas en términos de eficiencia, productividad y adaptabilidad. Al automatizar actividades repetitivas y optimizar la gestión de datos, permiten que los equipos humanos se concentren en funciones estratégicas de mayor valor. Además, reducen la probabilidad de errores, facilitan la toma de decisiones basadas en información precisa y garantizan que los sistemas puedan evolucionar de manera continua frente a los cambios del entorno digital. 
-
+    p.mb-4 Los flujos de proceso en inteligencia artificial no solo transforman la manera en que las organizaciones gestionan sus tareas, sino que también aportan ventajas significativas en términos de eficiencia, productividad y adaptabilidad. Al automatizar actividades repetitivas y optimizar la gestión de datos, permiten que los equipos humanos se concentren en funciones estratégicas de mayor valor. Además, reducen la probabilidad de errores, facilitan la toma de decisiones basadas en información precisa y garantizan que los sistemas puedan evolucionar de manera continua frente a los cambios del entorno digital. 
 
     .row.justify-content-center.mb-5.pt-5(data-aos="fade-right")
         .col-lg-9.position-relative
           .avatar
-            figure
-              img(src="@/assets/curso/temas/t2/8.svg", alt="alt").img250
-          
+            img(src="@/assets/curso/temas/t2/8.svg", alt="").img250          
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
-                figure
-                  img(src="@/assets/curso/temas/t2/9.svg", alt="alt").img100
+                img(src="@/assets/curso/temas/t2/9.svg", alt="").img100
               .col
                 h5 Eficiencia
-                p Eliminan tareas manuales y repetitivas, optimizando el tiempo de ejecución.
-          
+                p Eliminan tareas manuales y repetitivas, optimizando el tiempo de ejecución.          
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto
-                figure
-                  img(src="@/assets/curso/temas/t2/10.svg", alt="alt").img100
+                img(src="@/assets/curso/temas/t2/10.svg", alt="").img100
               .col
                 h5 Productividad
                 p Permiten concentrar recursos humanos en actividades estratégicas de mayor valor.
           .crd.crd--avatarHorizontal.py-4.crd--mid
             .row.align-items-center
               .col-auto
-                figure
-                  img(src="@/assets/curso/temas/t2/11.svg", alt="alt").img100
+                img(src="@/assets/curso/temas/t2/11.svg", alt="").img100
               .col
                 h5 Escalabilidad
                 p Facilitan la expansión y optimización de procesos dentro de las organizaciones.
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
               .col-auto
-                figure
-                  img(src="@/assets/curso/temas/t2/12.svg", alt="alt").img100
+                img(src="@/assets/curso/temas/t2/12.svg", alt="").img100
               .col
                 h5 Precisión
                 p Reducen errores humanos y mejoran la toma de decisiones mediante automatización inteligente.                          
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
               .col-auto
-                figure
-                  img(src="@/assets/curso/temas/t2/13.svg", alt="alt").img100
+                img(src="@/assets/curso/temas/t2/13.svg", alt="").img100
               .col
                 h5 Adaptabilidad
                 p Favorecen el aprendizaje continuo y la evolución de los procesos digitales. 
@@ -136,26 +125,20 @@
           .row(numero="a" titulo="Definición clara de metas")
             .col-md-11
               p Antes de diseñar un flujo, es indispensable establecer objetivos precisos: identificar qué tareas se van a automatizar y qué resultados se espera obtener.
-
           .row(numero="b" titulo="Selección, integración y pruebas de herramientas de IA")
             .col-md-11
               p Es fundamental elegir plataformas compatibles con las necesidades específicas, que permitan integración con sistemas existentes, ofrezcan personalización y fomenten la colaboración. Probar las herramientas antes de su implementación ayuda a detectar ventajas, limitaciones y estilos de funcionamiento.
-
           .row(numero="c" titulo="Diseño lógico y manejo de eventos")
             .col-md-11
               p El flujo debe detallar cada etapa, los desencadenantes y las reglas de automatización. Separar los “caminos felices” (escenarios ideales) de los casos de error, con rutas alternativas, asegura que la IA pueda tomar decisiones adecuadas frente a imprevistos.
-
           .row(numero="d" titulo="Calidad, integración y gestión de datos")
             .col-md-11
               p Trabajar con datos precisos, relevantes y actualizados es crucial para la efectividad del sistema. Datos incompletos o desbalanceados pueden afectar el rendimiento. Por eso, es necesario limpiar, analizar y dividir correctamente la información en conjuntos de entrenamiento, validación y prueba.
-
           .row(numero="e" titulo="Documentación y modularidad")
             .col-md-11
-              p Mantener una documentación clara y estructurar los procesos de forma modular garantiza la reproducibilidad y facilita el mantenimiento. Evitar flujos de código opacos y añadir comentarios adecuados reduce riesgos futuros y ahorra tiempo en actualizaciones.
-            
+              p Mantener una documentación clara y estructurar los procesos de forma modular garantiza la reproducibilidad y facilita el mantenimiento. Evitar flujos de código opacos y añadir comentarios adecuados reduce riesgos futuros y ahorra tiempo en actualizaciones.            
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
-        figure
-          img.img-a.img-t(src='@/assets/curso/temas/t2/14.png', alt='') 
+        img.img-a.img-t(src='@/assets/curso/temas/t2/14.png', alt='') 
 
     .row.bgcolor-1.tarjeta.align-items-center.p-2.p-md-4(data-aos="fade")
       .col-lg-12.col-12.px-lg-4
@@ -172,7 +155,10 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=arr8nZw6K5g&ab_channel=trebleai')" target="_blank")
                     span Ir al sitio
-                    i.fas.fa-file-video                                                              
+                    i.fas.fa-file-video          
+
+
+
 </template>
 
 <script>

@@ -45,11 +45,9 @@ figcaption
 .img-a
   display: block
   margin: auto
-
 .img-t
   width: auto !important
   height: auto !important
-
 .mov
   display: block
   margin: auto
@@ -172,13 +170,13 @@ figcaption
 
 .ico-lista
   img
-    width: 6%
+    width: 7% 
     margin-right: 10px
     position: relative
-    top: 5px
-    max-width: 34px
+    top: 6px
+    max-width: 17px
   span
-    width: 94%
+    width: 93%
 .fa-lista
   li
     display: flex !important
@@ -202,6 +200,7 @@ figcaption
       margin-inline: -1.4rem
       background-size: cover
 
+
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: 810px)
     width: 45px
@@ -218,7 +217,6 @@ figcaption
     width: 15px
     height: 15px
     margin: 0 3px
-
 .slyder-a
   &__tipo-a
     .slyder-a
@@ -227,7 +225,6 @@ figcaption
         bottom: 20px !important
         left: 50%
         transform: translateX(-50%)
-
 .slyder-a__bullets__item--active
   background-color: #9936B1 !important
   border: 1px solid #9936B1
@@ -236,18 +233,28 @@ figcaption
 .slyder-a__bullets__item
   background-color: #D6AEE0
   border: 1px solid #D6AEE0
-
 .slyder-f__btn
   i
     color: #FFD504
+.pasos-b
+  &__header__item--before .pasos-b__header__item__dot
+    background-color: #9936B1
+    border-color: #9936B1
+  &__header__item--active .pasos-b__header__item__line-container:before
+    background-color: #9936B1 !important
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9936B1
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #FFD504
+  border-color: #FFD504
+
 
 .subt
   background-color: #F5EAF7
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   width: fit-content
-  height: 35px !important
-
+  height: 35px 
   img
     width: 50px
     z-index: 99
@@ -264,6 +271,8 @@ figcaption
       border-bottom-right-radius: 100px
       left: 0px
       top: 0
+  @media (max-width: $bp-max-sm)
+    height: auto 
 .bgs
   &-1
     background-image: url('../assets/curso/temas/t1/36.png')
@@ -285,7 +294,6 @@ figcaption
     .tarjeta-flip__contenedor
       transform: rotateY(180deg)
       backface-visibility: hidden
-
   &__contenido
     transform: rotateY(180deg)
     height: 100%
@@ -298,7 +306,6 @@ figcaption
   height: 108% !important
   @media screen and (max-width: $bp-max-md)
     height: 90% !important
-
 .flip-top
   margin-top: 4rem !important
   @media screen and (max-width: $bp-max-md)
@@ -310,7 +317,7 @@ figcaption
 .circl-arrow .slyder-f__btn i
   font-size: 1.2rem
   background-color: $color-acento-botones
-  color: $white
+  color: $color-sistema-texto
   height: 46px
   width: 46px
   padding: 5px
@@ -399,3 +406,15 @@ figcaption
   width: 20%
   @media (max-width: $bp-max-sm)
     width: 50%
+  @media (max-width: $bp-max-xs)
+    width: 90%
+
+
+@media (max-width: $bp-max-md)
+  .tarjeta-flip
+    min-height: 400px 
+    &__img
+      background-position: bottom
+  .tarjeta-flip.tf2
+    .tarjeta-flip__img
+      background-position: center 

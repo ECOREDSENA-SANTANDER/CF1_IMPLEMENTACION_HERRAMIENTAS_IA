@@ -8,10 +8,10 @@
         h1 Inteligencia Artificial (IA)
         
       .row.justify-content-center.align-items-end.mb-5
-        .col-lg-auto.mb-0(data-aos="fade-left")
+        .col-lg-5.col-md-7.mb-3.mb-lg-0(data-aos="fade-left")
           img.img-a.img-t(src="@/assets/curso/temas/t1/2.png")
-        .col-lg
-          .row.align-items-center.mb-5
+        .col-lg-7
+          .row.align-items-center.mb-4
             .col-lg-auto.my-0.my-md-4.my-sm-4.d-none.d-lg-block(data-aos="fade-right")
               img.img-a.img-t(src="@/assets/curso/temas/t1/3.png")
             .col-lg(data-aos="fade-left")
@@ -26,104 +26,92 @@
         .col-lg-8.mb-3.mb-lg-0  
           AcordionA(tipo="b" clase-tarjeta="tarjeta bg1")
             .div(titulo="Datos")
-              p El “alimento” de la IA. Cuantos más datos de calidad se dispongan, mejor puede aprender el sistema.
-              p.text-bold Ejemplo práctico
+              p.mb-4 El “alimento” de la IA. Cuantos más datos de calidad se dispongan, mejor puede aprender el sistema.
+              p.text-bold.mb-2 Ejemplo práctico
               p Fotos para entrenar un sistema de reconocimiento facial; historiales médicos para un modelo de diagnóstico.
             .div(titulo="Algoritmos")
-              p Conjunto de instrucciones matemáticas y lógicas que permiten a la máquina aprender a partir de los datos.
-              p.text-bold Ejemplo práctico
-              p Algoritmos de clasificación para detectar correos spam; redes neuronales para visión artificial.
-
+              p.mb-4 Conjunto de instrucciones matemáticas y lógicas que permiten a la máquina aprender a partir de los datos.
+              p.text-bold.mb-2 Ejemplo práctico
+              p Algoritmos de clasificación para detectar correos #[em spam]; redes neuronales para visión artificial.
             .div(titulo="Computación")
-              p Infraestructura tecnológica necesaria: procesadores potentes y con frecuencia, servicios en la nube para entrenar modelos complejos.
-              p.text-bold Ejemplo práctico
-              p Uso de GPU en la nube (como AWS o Google Cloud) para entrenar un modelo de traducción automática.
+              p.mb-4 Infraestructura tecnológica necesaria: procesadores potentes y con frecuencia, servicios en la nube para entrenar modelos complejos.
+              p.text-bold.mb-2 Ejemplo práctico
+              p Uso de GPU en la nube (como AWS o #[em Google Cloud]) para entrenar un modelo de traducción automática.
             .div(titulo="Retroalimentación")
-              p Proceso mediante el cual el sistema mejora con el tiempo, corrigiendo errores y ajustando su rendimiento.
-              p.text-bold Ejemplo práctico
+              p.mb-4 Proceso mediante el cual el sistema mejora con el tiempo, corrigiendo errores y ajustando su rendimiento.
+              p.text-bold.mb-2 Ejemplo práctico
               p Un asistente virtual que corrige sus respuestas según la valoración del usuario (ejemplo: “pulgar arriba / abajo”).                  
         .col-lg-4.d-none.d-lg-block
           img.img-a.img-t(src="@/assets/curso/temas/t1/4.png", alt="")      
 
-      .row.justify-content-center.mb-5(data-aos="fade-left") 
-        .col-lg-3.col-md-6.mb-0.mb-md-3
-          .bg-color-2.p-3.h-100
-            img.img-a.img-t.my-3(src="@/assets/curso/temas/t1/5.png", alt="")
-            p.text-bold.text-center Ventajas principales 
+      .row.justify-content-center.mb-4(data-aos="fade-left") 
+        .col-lg-3.col-md-6.mb-3
+          .bg-color-2.p-3.px-lg-4.h-100
+            img.img-a.img-t.my-3.mb-4(src="@/assets/curso/temas/t1/5.png", alt="")
+            h4.text-center Ventajas principales 
             ul.lista-ul--color.ico-lista.fa-lista
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Automatización de tareas repetitivas (mayor eficiencia y reducción de costos).
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Aumento de la productividad en empresas y organizaciones.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Avances en salud, apoyando diagnósticos y tratamientos.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Servicios personalizados como traductores automáticos, asistentes virtuales y sistemas de recomendación.   
-        .col-lg-3.col-md-6.mb-0.mb-md-3
-          .bg-color-2.p-3.h-100
-            img.img-a.img-t.my-3(src="@/assets/curso/temas/t1/6.png", alt="")
-            p.text-bold.text-center Riesgos y desafíos 
+        .col-lg-3.col-md-6.mb-3
+          .bg-color-2.p-3.px-lg-4.h-100
+            img.img-a.img-t.my-3.mb-4(src="@/assets/curso/temas/t1/6.png", alt="")
+            h4.text-center Riesgos y desafíos 
             ul.lista-ul--color.ico-lista.fa-lista
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Pérdida de empleos por sustitución de actividades humanas.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Reproducción de sesgos presentes en los datos (decisiones injustas).
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Dependencia tecnológica creciente.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Problemas de privacidad y uso de datos personales. 
-        .col-lg-3.col-md-6.mb-0.mb-md-3
-          .bg-color-2.p-3.h-100
-            img.img-a.img-t.my-3(src="@/assets/curso/temas/t1/7.png", alt="")
-            p.text-bold.text-center Retos éticos y sociales 
+        .col-lg-3.col-md-6.mb-3
+          .bg-color-2.p-3.px-lg-4.h-100
+            img.img-a.img-t.my-3.mb-4(src="@/assets/curso/temas/t1/7.png", alt="")
+            h4.text-center Retos éticos y sociales 
             ul.lista-ul--color.ico-lista.fa-lista
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Proteger la privacidad de los datos.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Promover la transparencia de los algoritmos, que suelen funcionar como “cajas negras”.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Establecer responsabilidad legal frente a errores de sistemas autónomos.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Garantizar la equidad en el acceso a la tecnología, evitando brechas sociales.
-        .col-lg-3.col-md-6.mb-0.mb-md-3
-          .bg-color-2.p-3.h-100
-            img.img-a.img-t.my-3(src="@/assets/curso/temas/t1/8.png", alt="")
-            p.text-bold.text-center Futuro de la IA
+        .col-lg-3.col-md-6.mb-3
+          .bg-color-2.p-3.px-lg-4.h-100
+            img.img-a.img-t.my-3.mb-4(src="@/assets/curso/temas/t1/8.png", alt="")
+            h4.text-center Futuro de la IA
             ul.lista-ul--color.ico-lista.fa-lista
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Educación personalizada adaptada a cada estudiante.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Medicina predictiva para anticipar enfermedades.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Robótica avanzada en la industria y el hogar.
-
               li 
-                img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                img(src="@/assets/curso/temas/t1/11.svg", alt="")
                 span Creatividad asistida en arte, música y literatura.   
 
         
@@ -161,94 +149,86 @@
         SlyderA.pb-lg-5.pb-3(tipo="b")
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Aprendizaje automático (Machine  Learning)
-              p Subdisciplina de la IA que permite a las máquinas aprender de los datos y mejorar su rendimiento sin ser programadas de forma explícita. 
-              h5 Ejemplos de aplicación
+              h5 Aprendizaje automático (#[em Machine  Learning])
+              p.mb-4 Subdisciplina de la IA que permite a las máquinas aprender de los datos y mejorar su rendimiento sin ser programadas de forma explícita. 
+              h5.mb-2 Ejemplos de aplicación
               p Recomendaciones de Netflix, detección de fraudes en bancos.
             .col-md-5
               img(src='@/assets/curso/temas/t1/15.png', alt='')
 
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Tipos de aprendizaje automático
-              ul.lista-ul--color.ico-lista.fa-lista
+              h5.mb-2 Tipos de aprendizaje automático
+              ul.lista-ul--color.ico-lista.fa-lista.mb-4
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
                   span #[b Supervisado:] se entrena con datos etiquetados para predecir resultados en nuevos casos.
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
                   span #[b No supervisado:] analiza datos sin etiquetas para descubrir patrones ocultos.
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
                   span #[b Por refuerzo:] el agente aprende interactuando con su entorno, recibiendo recompensas o castigos. 
-              h5 Ejemplos de aplicación
-
+              h5.mb-2 Ejemplos de aplicación
               ul.lista-ul--color.ico-lista.fa-lista
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
-                  span #[b Supervisado:] clasificación de correos spam.
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  span #[b Supervisado:] clasificación de correos #[em spam].
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
                   span #[b No supervisado:] segmentación de clientes.
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/t1/11.svg", alt="")
+                  img(src="@/assets/curso/temas/t1/11.svg", alt="")
                   span #[b Por refuerzo:] robots que aprenden a caminar. 
             .col-md-5
-              figure
-                img(src='@/assets/curso/temas/t1/16.png', alt='')
-
+              img(src='@/assets/curso/temas/t1/16.png', alt='')
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Redes neuronales
-              p Modelos inspirados en el cerebro humano, formados por capas de “neuronas” que procesan información de forma jerárquica. El #[em Deep Learning] permite trabajar con grandes volúmenes de datos y características complejas.
-              h5 Ejemplos de aplicación
+              h5.mb-2 Redes neuronales
+              p.mb-4 Modelos inspirados en el cerebro humano, formados por capas de “neuronas” que procesan información de forma jerárquica. El #[em Deep Learning] permite trabajar con grandes volúmenes de datos y características complejas.
+              h5.mb-2 Ejemplos de aplicación
               p Reconocimiento facial, asistentes de voz como Siri o Alexa.
             .col-md-5
               img(src='@/assets/curso/temas/t1/17.png', alt='')
-
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Procesamiento del Lenguaje Natural (PLN)
-              p Área de la IA que busca la interacción entre humanos y computadoras mediante el lenguaje natural. Se centra en comprender, interpretar y generar texto y voz.
-              h5 Ejemplos de aplicación
-              p #[em chatbots], asistentes virtuales, traductores automáticos.
+              h5.mb-2 Procesamiento del Lenguaje Natural (PLN)
+              p.mb-4 Área de la IA que busca la interacción entre humanos y computadoras mediante el lenguaje natural. Se centra en comprender, interpretar y generar texto y voz.
+              h5.mb-2 Ejemplos de aplicación
+              p #[em Chatbots], asistentes virtuales, traductores automáticos.
             .col-md-5
               img(src='@/assets/curso/temas/t1/18.png', alt='')
-
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Visión por computadora
-              p Tecnología que permite a las máquinas interpretar e identificar objetos y escenas en imágenes o videos usando algoritmos y aprendizaje automático. 
-              h5 Ejemplos de aplicación
+              h5.mb-2 Visión por computadora
+              p.mb-4 Tecnología que permite a las máquinas interpretar e identificar objetos y escenas en imágenes o videos usando algoritmos y aprendizaje automático. 
+              h5.mb-2 Ejemplos de aplicación
               p Vehículos autónomos, análisis de imágenes médicas, sistemas de seguridad.
             .col-md-5
               img(src='@/assets/curso/temas/t1/19.png', alt='')
-
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Agentes autónomos
-              p Sistemas que actúan por sí mismos, tomando decisiones en función de datos y condiciones de su entorno. 
-              h5 Ejemplos de aplicación
+              h5.mb-2 Agentes autónomos
+              p.mb-4 Sistemas que actúan por sí mismos, tomando decisiones en función de datos y condiciones de su entorno. 
+              h5.mb-2 Ejemplos de aplicación
               p Drones de reparto, robots industriales.
             .col-md-5
-              figure
-                img(src='@/assets/curso/temas/t1/20.png', alt='')                                                                                
+              img(src='@/assets/curso/temas/t1/20.png', alt='')                                                                                
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-6.mb-4.mb-md-0
-              h5 Ética y responsabilidad en la IA
-              p Considera los riesgos sociales y éticos: privacidad de datos, sesgos algorítmicos y responsabilidad en las decisiones automatizadas. Busca un desarrollo justo y equitativo de la tecnología. 
-              h5 Ejemplos de aplicación
+              h5.mb-2 Ética y responsabilidad en la IA
+              p.mb-4 Considera los riesgos sociales y éticos: privacidad de datos, sesgos algorítmicos y responsabilidad en las decisiones automatizadas. Busca un desarrollo justo y equitativo de la tecnología. 
+              h5.mb-2 Ejemplos de aplicación
               p Regulaciones de IA, auditoría de algoritmos, políticas de protección de datos.
             .col-md-5
-              figure
-                img(src='@/assets/curso/temas/t1/21.png', alt='')
+              img(src='@/assets/curso/temas/t1/21.png', alt='')
 
-      .row.align-items-center.justify-content-center
+      .row.align-items-center.justify-content-center(data-aos="fade-down")
         .col-lg-10.bg-color-4.p-3
           .row.align-items-center
-            .col-lg-auto(data-aos="fade-left")
+            .col-lg-auto.mb-3.mb-lg-0
               img.img-a.img-t(src="@/assets/curso/temas/t1/22.png")
-            .col-lg(data-aos="fade-right")
+            .col-lg
               p.mb-0 La Inteligencia Artificial (IA) ha recorrido un largo camino desde sus inicios hasta convertirse en una de las áreas más fascinantes y prometedoras de la tecnología moderna. Su historia se puede dividir en varias etapas clave, cada una marcada por avances significativos y cambios de paradigma.    
 
 
@@ -261,7 +241,7 @@
           LineaTiempoD.color-acento-botones
             .row(numero="1940s - 1950s" titulo="Los inicios de la IA")
               .col-md-11
-                p El origen de la inteligencia artificial se sitúa a mediados del siglo XX, cuando comenzaron a desarrollarse las primeras bases teóricas. En 1943, McCulloch y Pitts diseñaron un modelo matemático de neuronas artificiales, antecedente directo de las redes neuronales actuales. Años más tarde, en 1950, Alan Turing publicó “#[em Computing Machinery and Intelligence]”, donde planteó la célebre pregunta “¿pueden pensar las máquinas?” y propuso el Test de Turing como criterio para evaluar la inteligencia de un sistema. En 1951 surgieron los primeros programas de ajedrez y, en 1956, durante la Conferencia de Dartmouth, John McCarthy acuñó el término “Inteligencia Artificial”, marcando el inicio formal de la disciplina.
+                p El origen de la Inteligencia Artificial se sitúa a mediados del siglo XX, cuando comenzaron a desarrollarse las primeras bases teóricas. En 1943, McCulloch y Pitts diseñaron un modelo matemático de neuronas artificiales, antecedente directo de las redes neuronales actuales. Años más tarde, en 1950, Alan Turing publicó “#[em Computing Machinery and Intelligence]”, donde planteó la célebre pregunta “¿pueden pensar las máquinas?” y propuso el Test de Turing como criterio para evaluar la inteligencia de un sistema. En 1951 surgieron los primeros programas de ajedrez y, en 1956, durante la Conferencia de Dartmouth, John McCarthy acuñó el término “Inteligencia Artificial”, marcando el inicio formal de la disciplina.
             .row(numero="1960s - 1970s" titulo="La era dorada y el primer invierno")
               .col-md-11
                 p Las décadas de 1960 y 1970 fueron consideradas la primera gran etapa de auge de la IA. En este periodo se desarrollaron programas capaces de resolver problemas matemáticos y lógicos, así como sistemas pioneros de procesamiento de lenguaje natural. Entre ellos destacó ELIZA (1966), que simulaba conversaciones con un terapeuta, y SHRDLU, capaz de comprender y ejecutar instrucciones en entornos virtuales limitados. Sin embargo, las expectativas superaron a los logros reales y la tecnología no alcanzó el rendimiento esperado. Esto dio paso al primer “invierno de la IA”, caracterizado por la reducción de la financiación y el desinterés institucional. 
@@ -279,15 +259,14 @@
                 p En los últimos años, la inteligencia artificial ha experimentado una auténtica revolución con la llegada de la IA generativa. En 2020, modelos de lenguaje a gran escala como GPT-3 mostraron su capacidad para producir textos coherentes y creativos. En 2022, herramientas como ChatGPT y DALL·E se popularizaron, demostrando el potencial de la IA en la generación de texto e imágenes de alta calidad. Desde entonces, han surgido múltiples desarrollos, como Bard de Google o modelos abiertos como LLaMA y Falcon, que han impulsado la democratización del acceso a esta tecnología. Actualmente, la IA se aplica en medicina de precisión, biología computacional, educación personalizada, arte digital y robótica autónoma, al tiempo que se plantean debates éticos, sociales y legales. Estos han motivado el desarrollo de regulaciones, como la AI Act en Europa, con el objetivo de garantizar un uso responsable y seguro de la inteligencia artificial.
                 p Además, la ética y la transparencia en la IA han surgido como preocupaciones fundamentales en el debate contemporáneo. La necesidad de un enfoque responsable y equitativo en el desarrollo de algoritmos se ha intensificado, impulsando iniciativas globales que abogan por la regulación y el uso responsable de la IA.                                                                                
         .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
-          figure
-            img.img-a.img-t(src='@/assets/curso/temas/t1/23.jpg', alt='') 
+          img.img-a.img-t(src='@/assets/curso/temas/t1/23.jpg', alt='') 
 
-      .row.align-items-center.justify-content-center
+      .row.align-items-center.justify-content-center(data-aos="fade-down")
         .col-lg-10.bg-color-4.p-3
           .row.align-items-center
-            .col-lg-auto(data-aos="fade-left")
+            .col-lg-auto.mb-3.mb-lg-0
               img.img-a.img-t(src="@/assets/curso/temas/t1/22.png")
-            .col-lg(data-aos="fade-right")
+            .col-lg
               p.mb-0 La historia de la inteligencia artificial es un testimonio de la capacidad humana para crear y transformar. Desde la visión inicial de máquinas pensantes hasta la integración actual de la IA en la vida diaria, el viaje ha estado lleno de retos y oportunidades. A medida que nos adentramos en el futuro, seguir explorando y definiendo el papel de la IA será fundamental para asegurar un avance benéfico y ético en esta fascinante disciplina.   
 
 
@@ -295,7 +274,7 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.3 Aplicaciones en la vida cotidiana y en la industria      
 
-      p(data-aos="fade-down") La IA está presente en muchas acciones cotidianas, por ejemplo:  
+      p.mb-4 La IA está presente en muchas acciones cotidianas, por ejemplo:  
 
       .row.mb-5.text-center(data-aos="fade-left")
           .col-md-6.col-lg.mb-5.mb-lg-0
@@ -303,22 +282,19 @@
               img.img-a.img-t(src="@/assets/curso/temas/t1/24.png")
               .tarjeta.bg-color-5
                 .p-4.pt-1
-                  p.mb-0 Recomendaciones personalizadas en plataformas de #[em streaming] o tiendas online.
-
+                  p.mb-0 Recomendaciones personalizadas en plataformas de #[em streaming] o tiendas #[em online].
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/25.png")
               .tarjeta.bg-color-5
                 .p-4.pt-1
                   p.mb-0 Traducción automática de idiomas (Google Translate).
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/26.png")
               .tarjeta.bg-color-5
                 .p-4.pt-1
                   p.mb-0 Filtros de #[em spam] en el correo electrónico.
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/27.png")
@@ -326,7 +302,7 @@
                 .p-4.pt-1
                   p.mb-0 Reconocimiento facial en teléfonos móviles.  
 
-      p(data-aos="fade-down").mb-4 La IA también ha transformado procesos industriales y empresariales:
+      p.mb-4 La IA también ha transformado procesos industriales y empresariales:
 
       SlyderF.mb-5(columnas="col-lg-4 col-md-6" data-aos="fade-down")
         .tarjeta.bg-color-6.p-4.text-center
@@ -374,15 +350,14 @@
           h3.mb-0.px-3.pe-5 MarIA y la vida entre inteligencias artificiales: una historia cotidiana 
 
       .row.justify-content-center.mb-5
-        .col-lg-5.col-md-9
+        .col-lg-5.col-md-9.mb-3.mb-md-0
           .bg-color-5.p-3.h-100.j1(data-aos="fade-down")
             p.mb-0 Cuando pensamos en inteligencia artificial, solemos imaginar robots parlantes o sistemas como ChatGPT. Sin embargo, las IA llevan mucho más tiempo acompañándonos de lo que creemos. Lo que hoy parece cotidiano, ayer fue asombroso. Para comprobarlo, basta seguir un día en la vida de MarIA.      
         .col-lg-3.col-md-3(data-aos="fade-left")
           img.mov(src="@/assets/curso/temas/t1/35.png")
-        .col-lg-4.d-none.d-lg-block
+        .col-lg-4
           img.img-t.mb-3(data-aos='fade-up')(src="@/assets/curso/temas/t1/36.svg")
-
-          p(data-aos='fade-down').mb-0 MarIA no es ingeniera ni trabaja en tecnología. Es una persona común, curiosa y práctica, que usa lo necesario sin complicarse. Pero, sin darse cuenta, está rodeada de algoritmos que la acompañan desde que despierta hasta que se acuesta.
+          p.mb-0 MarIA no es ingeniera ni trabaja en tecnología. Es una persona común, curiosa y práctica, que usa lo necesario sin complicarse. Pero, sin darse cuenta, está rodeada de algoritmos que la acompañan desde que despierta hasta que se acuesta.
 
 
       .row.bgs-1.align-items-center.p-3.p-md-4.p-lg-5(data-aos="fade")
@@ -434,7 +409,7 @@
         h2 1.4 Principios fundamentales
 
       .row.align-items-center.mb-5
-        .col-lg-auto.mb-0.mb-md-4(data-aos="fade-right")
+        .col-lg-auto.mb-3.mb-md-4(data-aos="fade-right")
           img.img-a.img-t(src="@/assets/curso/temas/t1/43.png")
         .col-lg(data-aos="fade-left")
           p.mb-0 La Inteligencia Artificial (IA) puede entenderse como el esfuerzo humano por desarrollar máquinas capaces de aprender, razonar y actuar de maneras que tradicionalmente asociamos con las personas. Para comprenderla desde sus bases, es necesario partir de sus principios fundamentales, que funcionan como los cimientos sobre los cuales se construye toda esta tecnología. A continuación, se presentan dichos principios:                                                                     
@@ -515,7 +490,7 @@
         h2 1.5 Papel de la inteligencia artificial en el procesamiento de datos
 
       .row.align-items-center.mb-5
-        .col-lg-auto.mb-0.mb-md-4(data-aos="fade-left")
+        .col-lg-auto.mb-3.mb-md-4(data-aos="fade-left")
           img.img-a.img-t(src="@/assets/curso/temas/t1/45.png")
         .col-lg(data-aos="fade-right")
           p.mb-0 La Inteligencia Artificial (IA) desempeña un papel clave en el procesamiento de datos, ya que convierte grandes volúmenes de información en conocimiento útil para la toma de decisiones. En la era del #[em Big Data], donde los datos se generan de forma continua y masiva, los métodos tradicionales resultan insuficientes. La IA aporta soluciones avanzadas para analizar, interpretar y aprender a partir de esa información, optimizando tanto la velocidad como la precisión del proceso.
@@ -526,49 +501,49 @@
           h3.mb-0.px-3.pe-5 Principales funciones de la IA en el procesamiento de datos
 
       .row.justify-content-center.mb-5(data-aos="fade-left")
-        .col-md-6.col-xl-cinco.mb-3.mb-xl-0
+        .col-11.col-md-6.col-xl-cinco.mb-3.mb-xl-0
           .tarjeta.tarjeta-flip
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.bg-color-7
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Automatización del  análisis.
-              .tarjeta-flip__contenido.p-4.p-xl-5
-                h5.mb-4 Medios Automatización del  análisis.
+              .tarjeta-flip__contenido.p-4
+                h5.mb-4 Automatización del  análisis.
                 p Los algoritmos procesan millones de registros en segundos, detectando patrones, anomalías y correlaciones invisibles al ojo humano.       
-        .col-md-6.col-xl-cinco.mb-3.mb-xl-0
+        .col-11.col-md-6.col-xl-cinco.mb-3.mb-xl-0
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.bg-color-9
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Limpieza y transformación.
-              .tarjeta-flip__contenido.p-4.p-xl-5
+              .tarjeta-flip__contenido.p-4
                 h5.mb-4 Limpieza y transformación.
-                p la IA corrige errores, elimina duplicados, completa datos faltantes y normaliza la información, garantizando calidad en los conjuntos de datos.  
-        .col-md-6.col-xl-cinco.mb-3.mb-xl-0
+                p La IA corrige errores, elimina duplicados, completa datos faltantes y normaliza la información, garantizando calidad en los conjuntos de datos.  
+        .col-11.col-md-6.col-xl-cinco.mb-3.mb-xl-0
           .tarjeta.tarjeta-flip
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.bg-color-10
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Clasificación y segmentación.
-              .tarjeta-flip__contenido.p-4.p-xl-5
+              .tarjeta-flip__contenido.p-4
                 h5.mb-4 Clasificación y segmentación.
                 p Mediante técnicas como árboles de decisión o #[em clustering], organiza datos, agrupa clientes y categoriza eventos según sus similitudes.
-        .col-md-6.col-xl-cinco.mb-3.mb-xl-0
+        .col-11.col-md-6.col-xl-cinco.mb-3.mb-xl-0
           .tarjeta.tarjeta-flip
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.bg-color-11
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Predicción y prescripción.
-              .tarjeta-flip__contenido.p-4.pb-5.p-xl-5
+              .tarjeta-flip__contenido.p-4.pb-5
                 h5.mb-4 Predicción y prescripción.
                 p.pb-5 No solo anticipa comportamientos futuros (ventas, fraudes, tendencias), sino que también propone acciones concretas para afrontarlos.                
-        .col-md-6.col-xl-cinco.mb-3.mb-xl-0
+        .col-11.col-md-6.col-xl-cinco.mb-3.mb-xl-0
           .tarjeta.tarjeta-flip
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.bg-color-12
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Procesamiento de datos no estructurados.
-              .tarjeta-flip__contenido.p-4.pb-5.p-xl-5
+              .tarjeta-flip__contenido.p-4.pb-5
                 h5.mb-4 Procesamiento de datos no estructurados.
                 p.pb-5 Con NLP y visión por computador, interpreta textos, audios, imágenes y videos, transformando información compleja en datos analizables.  
   
-      .pt-4
+      .pt-5
       .subt.mb-4(data-aos="fade-right")
         .d-flex.align-items-center.deco
           img(src='@/assets/curso/temas/t1/34.svg', alt='')
@@ -576,49 +551,44 @@
 
       p(data-aos="fade-down") La Inteligencia Artificial ha transformado múltiples sectores gracias a su capacidad de analizar datos, optimizar procesos y generar predicciones precisas.
 
-      .row.mb-5.text-center(data-aos="fade-right")
+      .row.mb-5.text-center.justify-content-center(data-aos="fade-right")
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/51.png")
-              .tarjeta.bg-color-13
+              .tarjeta.bg-color-13.mt-3
                 .p-4
-                  h5 Empresas
+                  h5.mb-3 Empresas
                   p.mb-0 Permite  optimizar operaciones, comprender mejor a los clientes y automatizar procesos de decisión.
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/52.png")
-              .tarjeta.bg-color-13
+              .tarjeta.bg-color-13.mt-3
                 .p-4
-                  h5 Gobiernos
+                  h5.mb-3 Gobiernos
                   p.mb-0 Facilita el monitoreo de servicios públicos, la predicción de delitos y el análisis de políticas para una gestión más eficiente.
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/53.png")
-              .tarjeta.bg-color-13
+              .tarjeta.bg-color-13.mt-3
                 .p-4
-                  h5 Salud 
+                  h5.mb-3 Salud 
                   p.mb-0 Contribuye al diagnóstico predictivo, el análisis de historias clínicas y la gestión de epidemias mediante modelos avanzados.
 
-      p(data-aos="fade-down") Conviene resaltar los ámbitos en los que la IA, y especialmente el #[em Machine Learning], ha logrado consolidarse y generar un alto valor añadido. Actualmente, tres áreas concentran gran parte de las inversiones y desarrollos más relevantes:
+      p Conviene resaltar los ámbitos en los que la IA, y especialmente el #[em Machine Learning], ha logrado consolidarse y generar un alto valor añadido. Actualmente, tres áreas concentran gran parte de las inversiones y desarrollos más relevantes:
 
-
-      .row.mb-5.text-center(data-aos="fade-left")
+      .row.mb-5.text-center.justify-content-center(data-aos="fade-left")
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/54.png")
               .tarjeta.bg-color-13
                 .p-4 
                   p.mb-0 #[b Apoyo a la toma de decisiones:] en contextos donde los criterios son vagos o cambiantes, la IA permite formular decisiones basadas  en patrones históricos y probabilísticos, en lugar de reglas rígidas.
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/55.png")
               .tarjeta.bg-color-13
                 .p-4 
                   p.mb-0 #[b Visión por computador (#[em computer vision]):] tecnologías que capacitan a las máquinas para interpretar y analizar imágenes o videos, dotándolas de una habilidad semejante a la visión humana.
-
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img.img-a.img-t(src="@/assets/curso/temas/t1/56.png")
@@ -631,21 +601,20 @@
           img(src='@/assets/curso/temas/t1/34.svg', alt='')
           h3.mb-0.px-3.pe-5 Apoyo a la toma de decisiones
 
-      p(data-aos="fade-down").mb-5 La toma de decisiones, entendida como la elección entre diferentes alternativas, no es un concepto nuevo en computación. De hecho, constituye una de sus funciones esenciales desde los inicios de esta disciplina. Lo verdaderamente innovador en el contexto actual es la capacidad de los sistemas basados en Inteligencia Artificial (IA), especialmente mediante algoritmos de #[em Machine Learning], para operar incluso cuando los criterios son imprecisos, ambiguos o incompletos.                   
-
+      p.mb-4 La toma de decisiones, entendida como la elección entre diferentes alternativas, no es un concepto nuevo en computación. De hecho, constituye una de sus funciones esenciales desde los inicios de esta disciplina. Lo verdaderamente innovador en el contexto actual es la capacidad de los sistemas basados en Inteligencia Artificial (IA), especialmente mediante algoritmos de #[em Machine Learning], para operar incluso cuando los criterios son imprecisos, ambiguos o incompletos.                   
 
       .row.justify-content-center.align-items-end.mb-5
-        .col-lg-4.mb-0(data-aos="fade-left")
+        .col-lg-4.col-md-6.mb-0(data-aos="fade-left")
           img.img-a.img-t(src="@/assets/curso/temas/t1/57.png")
         .col-lg-8
           .row.align-items-center.mb-5.bg-color-4.p-3
             .col-lg-auto.my-0.my-md-4.my-sm-4(data-aos="fade-right")
               img.img-a.img-t(src="@/assets/curso/temas/t1/3.png")
             .col-lg(data-aos="fade-left")
-              p.mb-0 Un ejemplo paradigmático se encuentra en el ámbito médico. El diagnóstico clínico es un proceso complejo, condicionado por múltiples variables que pueden ser conocidas, desconocidas o estar sesgadas (por ejemplo, la percepción subjetiva del dolor). Frente a esta dificultad, un modelo de #[em Machine Learning] puede procesar grandes volúmenes de datos clínicos (estructurados y no estructurados), identificar patrones relevantes a partir de bases históricas y generar propuestas diagnósticas que reduzcan la incertidumbre.
-          
+              p.mb-0 Un ejemplo paradigmático se encuentra en el ámbito médico. El diagnóstico clínico es un proceso complejo, condicionado por múltiples variables que pueden ser conocidas, desconocidas o estar sesgadas (por ejemplo, la percepción subjetiva del dolor). Frente a esta dificultad, un modelo de #[em Machine Learning] puede procesar grandes volúmenes de datos clínicos (estructurados y no estructurados), identificar patrones relevantes a partir de bases históricas y generar propuestas diagnósticas que reduzcan la incertidumbre.          
           p(data-aos="fade-down").mb-0 En un campo completamente distinto, los sistemas de recomendación constituyen otro ejemplo relevante. Hoy en día, la mayoría de plataformas de comercio electrónico utilizan algoritmos de #[em Machine Learning] para personalizar la experiencia del usuario. A partir del análisis de clics, búsquedas, interacciones e historial de compras, estos sistemas detectan comportamientos y preferencias individuales. Debido a la enorme cantidad de variables en juego, sería impracticable diseñar reglas estáticas para predecir qué acción llevará a una conversión (compra). Aquí es donde el aprendizaje automático resulta fundamental para anticipar comportamientos y ofrecer recomendaciones ajustadas a los intereses del usuario. 
 
+      .pt-4
       .subt.mb-5(data-aos="fade-right")
         .d-flex.align-items-center.deco
           img(src='@/assets/curso/temas/t1/34.svg', alt='')
@@ -656,10 +625,10 @@
           p(data-aos="fade-down") Hasta hace pocos años, el procesamiento automatizado de imágenes y videos era un desafío considerable, y muchos se preguntaban si realmente era posible extraer información útil a partir de datos visuales no estructurados. Sin embargo, gracias al avance del #[em Deep Learning] y al aumento exponencial de la capacidad computacional, la visión por computador se ha consolidado como una de las áreas más dinámicas y con mayor potencial dentro de la IA.
           .bg-color-1.p-3.h-card.j1(data-aos="fade-right")
             p(data-aos="fade-down").mb-0 Este campo comprende el conjunto de técnicas y algoritmos que permiten a las máquinas “ver” e interpretar imágenes del entorno, simulando el funcionamiento de la percepción visual humana. Lo que para las personas resulta natural (identificar rostros, reconocer objetos o interpretar escenas), para una máquina supone superar retos técnicos como el reconocimiento de patrones, la interpretación contextual y la adaptación a variaciones de iluminación, perspectiva, forma o movimiento.
-        .col-lg-6(data-aos="fade-left")
+        .col-lg-6.d-none.d-lg-block(data-aos="fade-left")
           img.img-a.img-t(src="@/assets/curso/temas/t1/58.png")
 
-      p(data-aos="fade-down").mb-5 El abanico de aplicaciones de la #[b visión por computadora] es sumamente amplio y continúa creciendo gracias a los avances en #[em Deep Learning] y al incremento de la capacidad de cómputo. Entre los usos más destacados se encuentran:
+      p.mb-4 El abanico de aplicaciones de la #[strong visión por computadora] es sumamente amplio y continúa creciendo gracias a los avances en #[em Deep Learning] y al incremento de la capacidad de cómputo. Entre los usos más destacados se encuentran:
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
@@ -671,50 +640,43 @@
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/60.png' alt='')
               p #[b Clasificación  de objetos:] determina a qué categoría pertenece un objeto en una imagen, como identificar si se trata de un gato o un perro. 
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/61.png' alt='')
               p #[b Detección y localización de objetos:] reconoce qué objetos están presentes en una imagen o vídeo y señala su ubicación exacta mediante coordenadas.            
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/62.png' alt='')
               p #[b Reconocimiento facial:] permite identificar rostros humanos en multitudes o verificar identidades, con aplicaciones en seguridad, accesos biométricos y redes sociales.
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/63.png' alt='')
               p #[b Reconocimiento de caracteres (OCR, #[em Optical Character Recognition]):] extrae texto de documentos impresos, manuscritos o imágenes escaneadas. Su precisión ha mejorado notablemente gracias al #[em Deep Learning].
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/64.png' alt='')
               p #[b Procesamiento Inteligente de Documentos (IDP, #[em Intelligent Document Processing]):] evolución del OCR tradicional que incorpora contexto y semántica para extraer información estructurada de documentos como contratos, facturas u órdenes de compra.
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/65.png' alt='')
-              p #[b Segmentación de imágenes:] divide una imagen en regiones con significado. Puede ser semántica, cuando clasifica cada píxel según una categoría, o por instancias, cuando distingue múltiples objetos de la misma clase.
-
+              p #[b Segmentación de imágenes:] divide una imagen en regiones con significado. Puede ser #[strong semántica], cuando clasifica cada píxel según una categoría, o #[strong por instancias], cuando distingue múltiples objetos de la misma clase.
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/66.png' alt='')
               p #[b Reconstrucción de imágenes:] permite completar rostros o paisajes a partir de fragmentos incompletos, e incluso añadir color a fotografías en blanco y negro.                                                
-
             .tarjeta.bg-color-1.p-4
               .row.justify-content-center.mb-3
                 .col-md-8.col-lg-6.col-5
                   img(src='@/assets/curso/temas/t1/67.png' alt='')
               p #[b Aplicaciones urbanas y médicas:] va desde el análisis avanzado de imágenes médicas hasta la gestión del tráfico en ciudades inteligentes, mediante el reconocimiento de matrículas y la detección de vehículos.
 
-      p(data-aos="fade-down") En conjunto, la visión por computadora representa un ejemplo paradigmático de cómo la inteligencia artificial está ampliando las fronteras del análisis de datos, generando nuevas posibilidades en ámbitos tan diversos como la salud, la industria, la seguridad y el comercio electrónico.
+      p.mb-4 En conjunto, la visión por computadora representa un ejemplo paradigmático de cómo la inteligencia artificial está ampliando las fronteras del análisis de datos, generando nuevas posibilidades en ámbitos tan diversos como la salud, la industria, la seguridad y el comercio electrónico.
 
       .row.bgcolor-1.tarjeta.align-items-center.p-2.p-md-4(data-aos="fade")
         .col-lg-12.col-12.px-lg-4
@@ -726,7 +688,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white
-                    h4.mb-1 Video: TESLA: la Inteligencia Artificial marca la diferencia.
+                    h4.mb-1 Video. TESLA: la Inteligencia Artificial marca la diferencia.
                     p.mb-0 Se invita a explorar en siguiente video.
                   .col-sm-auto
                     a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=ut2JD8lpDgk&ab_channel=AutoIngenium')" target="_blank")

@@ -6,9 +6,9 @@
     
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="El componente Inteligencia Artificial y Productividad integra los fundamentos de la IA, sus flujos de proceso, herramientas y aplicaciones en distintos sectores, junto con los procesos automatizados que impulsan eficiencia, innovación y toma de decisiones autónomas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

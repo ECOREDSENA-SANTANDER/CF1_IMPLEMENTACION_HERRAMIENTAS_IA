@@ -24,15 +24,15 @@ export default {
       tema: 'Inteligencia Artificial y productividad',
       titulo: 'Cuestionario',
       introduccion:
-        'Objetivo: evaluar y reforzar el conocimiento adquirido sobre la inteligencia artificial y sus conceptos relacionados.',
+        'Objetivo: evaluar y reforzar el conocimiento adquirido sobre la Inteligencia Artificial y sus conceptos relacionados.',
       barajarPreguntas: false,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!...',
+      titulo_reprobado: 'VUELVA A INTENTARLO...',
       preguntas: [
         {
           id: 1,
           texto:
-            'La inteligencia artificial busca que las máquinas imiten tareas que normalmente requieren inteligencia humana.',
+            'La Inteligencia Artificial busca que las máquinas imiten tareas que normalmente requieren inteligencia humana.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: false,
           opciones: [
@@ -74,7 +74,7 @@ export default {
         {
           id: 3,
           texto:
-            'Los datos son el "alimento" fundamental para que la inteligencia artificial pueda aprender y mejorar.',
+            'Los datos son el "alimento" fundamental para que la Inteligencia Artificial pueda aprender y mejorar.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [

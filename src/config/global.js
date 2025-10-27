@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Inteligencia Artificial y productividad',
     Description:
-      'Este componente aborda los conceptos fundamentales y la evolución de la inteligencia artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <i>chatbots</i> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con inteligencia artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
+      'Este componente aborda los conceptos fundamentales y la evolución de la Inteligencia Artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <i>chatbots</i> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con Inteligencia Artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -70,7 +70,7 @@ export default {
           {
             numero: '1.5',
             titulo:
-              'Papel de la inteligencia artificial en el procesamiento de datos',
+              'Papel de la Inteligencia Artificial en el procesamiento de datos',
             hash: 't_1_5',
           },
         ],
@@ -93,7 +93,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Herramientas de inteligencia artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
+          'Herramientas de Inteligencia Artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -158,7 +158,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Papel de la inteligencia artificial en el procesamiento de datos',
+      tema: 'Papel de la Inteligencia Artificial en el procesamiento de datos',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2024). <i>Procesamiento de datos para modelos de inteligencia artificial</i>.',
       tipo: 'Video',
@@ -168,16 +168,16 @@ export default {
     {
       tema: 'Beneficios de los flujos de proceso',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <i>Integración y gestión avanzada de datos para inteligencia artificial</i>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Integración y gestión avanzada de datos para inteligencia artificial</em>.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=mxb4fQq2CNw&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA ',
     },
     {
       tema:
-        'Herramientas de inteligencia artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
+        'Herramientas de Inteligencia Artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <i>Machine Learning con Python</i>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Machine Learning con Python</em>.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=noMy4-zjR9Q&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA  ',
@@ -205,7 +205,7 @@ export default {
         'Proceso de usar tecnología, como la IA, para realizar tareas repetitivas o análisis complejos sin intervención humana directa.',
     },
     {
-      termino: '<i>Chatbots</i>',
+      termino: '<em>Chatbots</em>',
       significado:
         'Programas con IA capaces de interactuar con usuarios mediante lenguaje natural para resolver consultas y automatizar la atención al cliente.',
     },
@@ -348,7 +348,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
