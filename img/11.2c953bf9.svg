@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403339" data-name="Rectángulo 403339" width="14" height="14" transform="translate(809.668 5037)" fill="#9936b1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_1098766" data-name="Enmascarar grupo 1098766" transform="translate(-809.668 -5037)" clip-path="url(#clip-path)">
+    <g id="chatbot" transform="translate(809.668 5037)">
+      <path id="Trazado_877653" data-name="Trazado 877653" d="M.9,9.586A1.232,1.232,0,0,0,0,10.771v1.641A1.233,1.233,0,0,0,.894,13.6a3.965,3.965,0,0,1-.047-.609c0-3,0-2.821.005-2.969A3.923,3.923,0,0,1,.9,9.586Z" transform="translate(0 -2.13)" fill="#9936b1"/>
+      <path id="Trazado_877654" data-name="Trazado 877654" d="M16.844,9.586a3.966,3.966,0,0,1,.052.638v2.762a3.965,3.965,0,0,1-.047.609,1.233,1.233,0,0,0,.894-1.184V10.771A1.233,1.233,0,0,0,16.844,9.586Z" transform="translate(-3.743 -2.13)" fill="#9936b1"/>
+      <path id="Trazado_877655" data-name="Trazado 877655" d="M12.7,8.828H8.177L6.8,9.518a1.23,1.23,0,0,1-1.781-1.1V6.379A3.149,3.149,0,0,0,2.145,9.511v2.762a3.148,3.148,0,0,0,3.145,3.145H9.664a3.148,3.148,0,0,0,3.145-3.145V9.511a3.139,3.139,0,0,0-.075-.684ZM5.836,10.878a.41.41,0,0,1-.82,0v-.82a.41.41,0,1,1,.82,0ZM8.3,12.929H6.656a.41.41,0,1,1,0-.82H8.3a.41.41,0,0,1,0,.82Zm1.641-2.051a.41.41,0,0,1-.82,0v-.82a.41.41,0,1,1,.82,0Z" transform="translate(-0.477 -1.417)" fill="#9936b1"/>
+      <path id="Trazado_877656" data-name="Trazado 877656" d="M1.676,5.59a1.23,1.23,0,1,0-.82,0c0,.755,0,1.318,0,1.739l.324-.093a3.981,3.981,0,0,1,.5-.843Z" transform="translate(-0.008 -0.711)" fill="#9936b1"/>
+      <path id="Trazado_877657" data-name="Trazado 877657" d="M13.754,0H8.668A1.779,1.779,0,0,0,6.891,1.777V7a.41.41,0,0,0,.594.367L9.038,6.59h4.716a1.779,1.779,0,0,0,1.777-1.777V1.777A1.779,1.779,0,0,0,13.754,0Zm-.3,4.539H8.969a.41.41,0,0,1,0-.82h4.484a.41.41,0,0,1,0,.82Zm0-1.641H8.969a.41.41,0,0,1,0-.82h4.484a.41.41,0,0,1,0,.82Z" transform="translate(-1.531 0)" fill="#9936b1"/>
+    </g>
+  </g>
+</svg>
