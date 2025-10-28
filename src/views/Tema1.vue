@@ -145,9 +145,9 @@
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.1 Conceptos claves en Inteligencia Artificial (IA)
 
-      .tarjeta.bg-color-3.p-4.pb-0.mb-4(data-aos="fade-right")
-        SlyderA.pb-lg-5.pb-3(tipo="b")
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+      .tarjeta.bg-slider.p-4.pb-0.mb-4(data-aos="fade-right")
+        SlyderA.pb-lg-4.pb-3(tipo="b")
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5 Aprendizaje automático (#[em Machine  Learning])
               p.mb-4 Subdisciplina de la IA que permite a las máquinas aprender de los datos y mejorar su rendimiento sin ser programadas de forma explícita. 
@@ -155,8 +155,7 @@
               p Recomendaciones de Netflix, detección de fraudes en bancos.
             .col-md-5
               img(src='@/assets/curso/temas/t1/15.png', alt='')
-
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Tipos de aprendizaje automático
               ul.lista-ul--color.ico-lista.fa-lista.mb-4
@@ -182,7 +181,7 @@
                   span #[b Por refuerzo:] robots que aprenden a caminar. 
             .col-md-5
               img(src='@/assets/curso/temas/t1/16.png', alt='')
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Redes neuronales
               p.mb-4 Modelos inspirados en el cerebro humano, formados por capas de “neuronas” que procesan información de forma jerárquica. El #[em Deep Learning] permite trabajar con grandes volúmenes de datos y características complejas.
@@ -190,7 +189,7 @@
               p Reconocimiento facial, asistentes de voz como Siri o Alexa.
             .col-md-5
               img(src='@/assets/curso/temas/t1/17.png', alt='')
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Procesamiento del Lenguaje Natural (PLN)
               p.mb-4 Área de la IA que busca la interacción entre humanos y computadoras mediante el lenguaje natural. Se centra en comprender, interpretar y generar texto y voz.
@@ -198,7 +197,7 @@
               p #[em Chatbots], asistentes virtuales, traductores automáticos.
             .col-md-5
               img(src='@/assets/curso/temas/t1/18.png', alt='')
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Visión por computadora
               p.mb-4 Tecnología que permite a las máquinas interpretar e identificar objetos y escenas en imágenes o videos usando algoritmos y aprendizaje automático. 
@@ -206,7 +205,7 @@
               p Vehículos autónomos, análisis de imágenes médicas, sistemas de seguridad.
             .col-md-5
               img(src='@/assets/curso/temas/t1/19.png', alt='')
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Agentes autónomos
               p.mb-4 Sistemas que actúan por sí mismos, tomando decisiones en función de datos y condiciones de su entorno. 
@@ -214,7 +213,7 @@
               p Drones de reparto, robots industriales.
             .col-md-5
               img(src='@/assets/curso/temas/t1/20.png', alt='')                                                                                
-          .row.justify-content-center.align-items-center.my-lg-4.mb-5
+          .row.justify-content-center.align-items-center.my-lg-3
             .col-md-6.mb-4.mb-md-0
               h5.mb-2 Ética y responsabilidad en la IA
               p.mb-4 Considera los riesgos sociales y éticos: privacidad de datos, sesgos algorítmicos y responsabilidad en las decisiones automatizadas. Busca un desarrollo justo y equitativo de la tecnología. 
@@ -359,49 +358,44 @@
           img.img-t.mb-3(data-aos='fade-up')(src="@/assets/curso/temas/t1/36.svg")
           p.mb-0 MarIA no es ingeniera ni trabaja en tecnología. Es una persona común, curiosa y práctica, que usa lo necesario sin complicarse. Pero, sin darse cuenta, está rodeada de algoritmos que la acompañan desde que despierta hasta que se acuesta.
 
-
-      .row.bgs-1.align-items-center.p-3.p-md-4.p-lg-5(data-aos="fade")
-        .col-lg-12.col-12.px-lg-4
+      .tarjeta.bg-slider.p-4.pb-0.mb-4(data-aos="fade-down")
+        SlyderA.py-lg-5.p-4.pb-3(tipo="b")
           .row.justify-content-center.align-items-center
-
-            .tarjeta.tarjeta--blanca.p-4
-              PasosB.color-acento-botones
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 Despertar inteligente
-                    p Al abrir los ojos, lo primero que hace MarIA es mirar su reloj inteligente. Revisa la hora, los mensajes y su ritmo cardíaco. Detrás de esa rutina hay un sistema que aprende de sus hábitos y predice patrones. Hace unos años parecía ciencia ficción; hoy pasa inadvertido.
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/37.png", alt='')   
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 Recomendaciones a la carta
-                    p Por la tarde, enciende Netflix. En la pantalla aparece: “Porque viste Mindhunter, te recomendamos Orange Is the New Black”. Sin pensarlo demasiado, da clic. Ese motor de recomendaciones, también presente en Spotify o Amazon, filtra miles de opciones para ofrecerle lo que probablemente disfrute. 
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/38.png", alt='') 
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 Creatividad en un toque
-                    p Más tarde, revisa fotos de sus vacaciones. En una, un desconocido arruina el fondo. Usa la opción de “Borrador mágico” y, con un toque, la IA elimina al intruso y reconstruye la imagen. Algo que antes requería horas en Photoshop, hoy se resuelve en segundos desde el celular.
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/39.png", alt='') 
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 Jugando con algoritmos
-                    p Antes de dormir, MarIA juega una partida de ajedrez contra la computadora. Lo toma como un pasatiempo, pero detrás hay un programa capaz de predecir movimientos y aprender de cada jugada. Hace décadas, que una máquina venciera a un campeón mundial fue noticia; ahora cabe en un bolsillo.
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/40.png", alt='') 
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 La IA, sin darnos cuenta
-                    p En un solo día, MarIA interactuó con al menos cinco tipos de IA: en su reloj, en las recomendaciones de series, en la edición de imágenes, en el entretenimiento y en la salud. Todo sin ser experta. Como ella, millones de personas usan estas tecnologías sin saberlo.
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/41.png", alt='') 
-                .row.justify-content-center.align-items-center(titulo="")
-                  .col-lg-5.col-md-6.mb-4.mb-md-0
-                    h4 Un futuro ya presente 
-                    p La experiencia de MarIA demuestra que la inteligencia artificial no es un fenómeno lejano, sino una realidad cotidiana. Está en el teléfono, la televisión, el auto o la nevera. Tan integrada en nuestras vidas que ya ni la llamamos por su nombre, aunque transforme en silencio la forma en que vivimos, trabajamos y nos divertimos.
-                  .col-lg-5.col-md-6
-                    img.img-a.img-t(src="@/assets/curso/temas/t1/42.png", alt='')
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 Despertar inteligente
+              p Al abrir los ojos, lo primero que hace MarIA es mirar su reloj inteligente. Revisa la hora, los mensajes y su ritmo cardíaco. Detrás de esa rutina hay un sistema que aprende de sus hábitos y predice patrones. Hace unos años parecía ciencia ficción; hoy pasa inadvertido.
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/37.png", alt='')   
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 Recomendaciones a la carta
+              p Por la tarde, enciende Netflix. En la pantalla aparece: “Porque viste Mindhunter, te recomendamos Orange Is the New Black”. Sin pensarlo demasiado, da clic. Ese motor de recomendaciones, también presente en Spotify o Amazon, filtra miles de opciones para ofrecerle lo que probablemente disfrute. 
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/38.png", alt='') 
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 Creatividad en un toque
+              p Más tarde, revisa fotos de sus vacaciones. En una, un desconocido arruina el fondo. Usa la opción de “Borrador mágico” y, con un toque, la IA elimina al intruso y reconstruye la imagen. Algo que antes requería horas en Photoshop, hoy se resuelve en segundos desde el celular.
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/39.png", alt='') 
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 Jugando con algoritmos
+              p Antes de dormir, MarIA juega una partida de ajedrez contra la computadora. Lo toma como un pasatiempo, pero detrás hay un programa capaz de predecir movimientos y aprender de cada jugada. Hace décadas, que una máquina venciera a un campeón mundial fue noticia; ahora cabe en un bolsillo.
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/40.png", alt='') 
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 La IA, sin darnos cuenta
+              p En un solo día, MarIA interactuó con al menos cinco tipos de IA: en su reloj, en las recomendaciones de series, en la edición de imágenes, en el entretenimiento y en la salud. Todo sin ser experta. Como ella, millones de personas usan estas tecnologías sin saberlo.
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/41.png", alt='') 
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-6.mb-4.mb-md-0
+              h4 Un futuro ya presente 
+              p La experiencia de MarIA demuestra que la inteligencia artificial no es un fenómeno lejano, sino una realidad cotidiana. Está en el teléfono, la televisión, el auto o la nevera. Tan integrada en nuestras vidas que ya ni la llamamos por su nombre, aunque transforme en silencio la forma en que vivimos, trabajamos y nos divertimos.
+            .col-lg-5.col-md-6
+              img.img-a.img-t(src="@/assets/curso/temas/t1/42.png", alt='')
 
 
       Separador
