@@ -17,7 +17,7 @@
           .col-lg
             p.mb-0 Los procesos automatizados en inteligencia artificial permiten que los sistemas trabajen de forma autónoma con información no estructurada, utilizando diferentes capas y lógicas de tareas para tomar decisiones sin intervención humana directa. 
         .bg-color-1.p-3                                
-          p.mb-0 La #[strong información no estructurada] incluye datos que no siguen un formato fijo, como textos, imágenes, vídeos, grabaciones de voz y documentos digitales. La inteligencia artificial utiliza técnicas como el procesamiento del lenguaje natural (NLP), la visión computarizada y el reconocimiento de voz para analizar y extraer valor de estos datos, habilitando aplicaciones como análisis de sentimientos, detección de objetos e identificación de patrones complejos. 
+          p.mb-0 La #[strong información no estructurada] incluye datos que no siguen un formato fijo, como textos, imágenes, vídeos, grabaciones de voz y documentos digitales. La inteligencia artificial utiliza técnicas como el procesamiento del lenguaje natural (#[em NLP]), la visión computarizada y el reconocimiento de voz para analizar y extraer valor de estos datos, habilitando aplicaciones como análisis de sentimientos, detección de objetos e identificación de patrones complejos. 
 
     p.mb-4 Los procesos automatizados por IA suelen estar estructurados en diversas capas que trabajan juntas para lograr la autonomía y la eficiencia:   
 
@@ -105,8 +105,7 @@
         .crd.crd--avatarHorizontal.p-right.crd--last.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/13.svg", alt="").img100
+              img(src="@/assets/curso/temas/t4/13.svg", alt="").img100
             .col
               p Empresas como aerolíneas, bancos y tiendas en línea han reducido los tiempos de espera y mejorado la satisfacción del cliente utilizando esta tecnología.   
       .col-lg-4.p-0.d-none.d-lg-block(data-aos="fade-right")        

@@ -81,7 +81,7 @@
           .col-lg-12.col-md-9.col-6
             img.img-a.img-t(src='@/assets/curso/temas/t3/10.png' alt='')
         h4 UiPath
-        p Plataforma líder en Automatización Robótica de Procesos (RPA) que combina #[em bots] y agentes de IA para gestionar tareas tanto manuales como cognitivas. Permite automatizar flujos empresariales completos y escalar procesos de manera eficiente.
+        p Plataforma líder en Automatización Robótica de Procesos (#[em RPA]) que combina #[em bots] y agentes de IA para gestionar tareas tanto manuales como cognitivas. Permite automatizar flujos empresariales completos y escalar procesos de manera eficiente.
       .tarjeta.bg-color-6.p-4.text-center
         .row.justify-content-center.mb-3
           .col-lg-12.col-md-9.col-6
@@ -93,7 +93,7 @@
           .col-lg-12.col-md-9.col-6
             img.img-a.img-t(src='@/assets/curso/temas/t3/12.png' alt='')
         h4 Automation Anywhere
-        p Solución que integra IA y RPA para automatizar tareas administrativas, desde la entrada de datos hasta la generación de informes. Su uso contribuye a reducir costos operativos y liberar recursos humanos para labores estratégicas. 
+        p Solución que integra IA y #[em RPA] para automatizar tareas administrativas, desde la entrada de datos hasta la generación de informes. Su uso contribuye a reducir costos operativos y liberar recursos humanos para labores estratégicas. 
       .tarjeta.bg-color-6.p-4.text-center
         .row.justify-content-center.mb-3
           .col-lg-12.col-md-9.col-6

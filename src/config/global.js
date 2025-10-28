@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Inteligencia Artificial y productividad',
+    Name: 'Inteligencia Artificial (IA) y productividad',
     Description:
-      'Este componente aborda los conceptos fundamentales y la evolución de la Inteligencia Artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <i>chatbots</i> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con Inteligencia Artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
+      'Este componente aborda los conceptos fundamentales y la evolución de la Inteligencia Artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <em>chatbots</em> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con Inteligencia Artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -69,8 +69,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo:
-              'Papel de la Inteligencia Artificial en el procesamiento de datos',
+            titulo: 'Papel de la IA en el procesamiento de datos',
             hash: 't_1_5',
           },
         ],
@@ -79,7 +78,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Flujos de proceso en Inteligencia Artificial',
+        titulo: 'Flujos de proceso en Inteligencia Artificial (IA)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -158,9 +157,9 @@ export default {
   },
   complementario: [
     {
-      tema: 'Papel de la Inteligencia Artificial en el procesamiento de datos',
+      tema: 'Papel de la IA en el procesamiento de datos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <i>Procesamiento de datos para modelos de inteligencia artificial</i>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Procesamiento de datos para modelos de inteligencia artificial</em>.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=XjsAcMuYM2Y&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -175,7 +174,7 @@ export default {
     },
     {
       tema:
-        'Herramientas de Inteligencia Artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
+        'Herramientas de inteligencia artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Machine Learning con Python</em>.',
       tipo: 'Video',
@@ -243,53 +242,53 @@ export default {
   referencias: [
     {
       referencia:
-        'Chollet, F. (2021). <i>Deep learning con Python<i> (2.ª ed.). Ediciones Anaya Multimedia.',
+        'Chollet, F. (2021). <em>Deep learning con Python<em> (2.ª ed.). Ediciones Anaya Multimedia.',
     },
     {
       referencia:
-        'Chollet, F. (2022). <i>Deep learning con Python<i> (2.ª ed., J. Barceló, Trad.). Anaya Multimedia. (Obra original publicada en 2021).',
+        'Chollet, F. (2022). <em>Deep learning con Python<em> (2.ª ed., J. Barceló, Trad.). Anaya Multimedia. (Obra original publicada en 2021).',
     },
     {
       referencia:
-        'Cuatrecasas. (2024, noviembre 12). <i>Guía para el uso responsable de IA y datos personales en Colombia<i>. ',
+        'Cuatrecasas. (2024, noviembre 12). <em>Guía para el uso responsable de IA y datos personales en Colombia<em>. ',
       link:
         'https://www.cuatrecasas.com/es/spain/tecnologia-medios-digitales/art/guia-uso-responsable-ia-datos-personales-colombia',
     },
     {
       referencia:
-        'De Prado, M. (2023). <i>Inteligencia artificial y análisis de datos: Fundamentos y aplicaciones</i>. Ediciones Pirámide.',
+        'De Prado, M. (2023). <em>Inteligencia artificial y análisis de datos: Fundamentos y aplicaciones</em>. Ediciones Pirámide.',
     },
     {
       referencia:
-        'Fernández-Macías, E., & Sánchez, Á. (2022). <i>El impacto de la inteligencia artificial en el empleo y el trabajo</i>. Fundación Cotec.',
+        'Fernández-Macías, E., & Sánchez, Á. (2022). <em>El impacto de la inteligencia artificial en el empleo y el trabajo</em>. Fundación Cotec.',
     },
     {
       referencia:
-        'García, E., & López, F. (2023). <i>Inteligencia artificial: Fundamentos, ética y aplicaciones</i>. Alfaomega.',
+        'García, E., & López, F. (2023). <em>Inteligencia artificial: Fundamentos, ética y aplicaciones</em>. Alfaomega.',
     },
     {
       referencia:
-        'Goodfellow, I., Bengio, Y., & Courville, A. (2022). <i>Deep learning: Introducción práctica con Python</i> (2.ª ed., J. Cordero, Trad.). Marcombo.',
+        'Goodfellow, I., Bengio, Y., & Courville, A. (2022). <em>Deep learning: Introducción práctica con Python</em> (2.ª ed., J. Cordero, Trad.). Marcombo.',
     },
     {
       referencia:
-        'González, M. A. (2023). <i>Inteligencia artificial generativa: Fundamentos, herramientas y aplicaciones prácticas</i>. Editorial Alfaomega.',
+        'González, M. A. (2023). <em>Inteligencia artificial generativa: Fundamentos, herramientas y aplicaciones prácticas</em>. Editorial Alfaomega.',
     },
     {
       referencia:
-        'Lind, D. A., Marchal, W. G., & Wathen, S. A. (2022). <i>Estadística aplicada a los negocios y la economía </i>(17.ª ed.). Cengage Learning.',
+        'Lind, D. A., Marchal, W. G., & Wathen, S. A. (2022). <em>Estadística aplicada a los negocios y la economía </em>(17.ª ed.). Cengage Learning.',
     },
     {
       referencia:
-        'Maldonado, G. (2021).<i> Estadística aplicada a las ciencias sociales y administrativas</i>. Ediciones de la U.',
+        'Maldonado, G. (2021).<em> Estadística aplicada a las ciencias sociales y administrativas</em>. Ediciones de la U.',
     },
     {
       referencia:
-        'Provost, F., & Fawcett, T. (2020).<i> Data science para los negocios: Lo que necesitas saber sobre minería de datos y análisis predictivo</i>. O’Reilly Media.',
+        'Provost, F., & Fawcett, T. (2020).<em> Data science para los negocios: Lo que necesitas saber sobre minería de datos y análisis predictivo</em>. O’Reilly Media.',
     },
     {
       referencia:
-        'Suárez, E. (2024). <i>Fuentes de información: Qué son, tipos y ejemplos</i>. Experto Universitario. ',
+        'Suárez, E. (2024). Guía práctica sobre los distintos tipos de fuentes de información. Experto Universitario.',
       link: 'https://expertouniversitario.es/blog/fuentes-de-informacion/',
     },
   ],
@@ -338,8 +337,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

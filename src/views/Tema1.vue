@@ -36,7 +36,7 @@
             .div(titulo="Computación")
               p.mb-4 Infraestructura tecnológica necesaria: procesadores potentes y con frecuencia, servicios en la nube para entrenar modelos complejos.
               p.text-bold.mb-2 Ejemplo práctico
-              p Uso de GPU en la nube (como AWS o #[em Google Cloud]) para entrenar un modelo de traducción automática.
+              p Uso de GPU en la nube (como AWS o Google Cloud) para entrenar un modelo de traducción automática.
             .div(titulo="Retroalimentación")
               p.mb-4 Proceso mediante el cual el sistema mejora con el tiempo, corrigiendo errores y ajustando su rendimiento.
               p.text-bold.mb-2 Ejemplo práctico
@@ -241,7 +241,7 @@
           LineaTiempoD.color-acento-botones
             .row(numero="1940s - 1950s" titulo="Los inicios de la IA")
               .col-md-11
-                p El origen de la Inteligencia Artificial se sitúa a mediados del siglo XX, cuando comenzaron a desarrollarse las primeras bases teóricas. En 1943, McCulloch y Pitts diseñaron un modelo matemático de neuronas artificiales, antecedente directo de las redes neuronales actuales. Años más tarde, en 1950, Alan Turing publicó “#[em Computing Machinery and Intelligence]”, donde planteó la célebre pregunta “¿pueden pensar las máquinas?” y propuso el Test de Turing como criterio para evaluar la inteligencia de un sistema. En 1951 surgieron los primeros programas de ajedrez y, en 1956, durante la Conferencia de Dartmouth, John McCarthy acuñó el término “Inteligencia Artificial”, marcando el inicio formal de la disciplina.
+                p El origen de la inteligencia artificial se sitúa a mediados del siglo XX, cuando comenzaron a desarrollarse las primeras bases teóricas. En 1943, McCulloch y Pitts diseñaron un modelo matemático de neuronas artificiales, antecedente directo de las redes neuronales actuales. Años más tarde, en 1950, Alan Turing publicó “#[em Computing Machinery and Intelligence]”, donde planteó la célebre pregunta “¿pueden pensar las máquinas?” y propuso el Test de Turing como criterio para evaluar la inteligencia de un sistema. En 1951 surgieron los primeros programas de ajedrez y, en 1956, durante la Conferencia de Dartmouth, John McCarthy acuñó el término “Inteligencia Artificial”, marcando el inicio formal de la disciplina.
             .row(numero="1960s - 1970s" titulo="La era dorada y el primer invierno")
               .col-md-11
                 p Las décadas de 1960 y 1970 fueron consideradas la primera gran etapa de auge de la IA. En este periodo se desarrollaron programas capaces de resolver problemas matemáticos y lógicos, así como sistemas pioneros de procesamiento de lenguaje natural. Entre ellos destacó ELIZA (1966), que simulaba conversaciones con un terapeuta, y SHRDLU, capaz de comprender y ejecutar instrucciones en entornos virtuales limitados. Sin embargo, las expectativas superaron a los logros reales y la tecnología no alcanzó el rendimiento esperado. Esto dio paso al primer “invierno de la IA”, caracterizado por la reducción de la financiación y el desinterés institucional. 
@@ -340,7 +340,7 @@
         .col-lg-5.col-md-7.mb-3.mb-lg-0(data-aos="fade-right")
           img.img-a.img-t(src="@/assets/curso/temas/t1/12.png")
         .col-lg-7(data-aos='fade-left')
-          p La inteligencia artificial (IA) suele asociarse con conceptos futuristas, máquinas parlantes o programas avanzados capaces de escribir textos y generar imágenes. Sin embargo, gran parte de su impacto no está en los laboratorios ni en escenarios de ciencia ficción, sino en nuestra vida diaria. Desde las aplicaciones en el teléfono hasta los servicios de entretenimiento, la IA se ha integrado de manera tan natural que muchas veces la usamos sin darnos cuenta.
+          p La Inteligencia Artificial (IA) suele asociarse con conceptos futuristas, máquinas parlantes o programas avanzados capaces de escribir textos y generar imágenes. Sin embargo, gran parte de su impacto no está en los laboratorios ni en escenarios de ciencia ficción, sino en nuestra vida diaria. Desde las aplicaciones en el teléfono hasta los servicios de entretenimiento, la IA se ha integrado de manera tan natural que muchas veces la usamos sin darnos cuenta.
           .bg-color-4.p-3(data-aos="fade-down")
             p.mb-0 Para ilustrar esta presencia invisible, presentamos la historia de MarIA, una persona común cuya rutina refleja cómo los algoritmos y sistemas inteligentes ya forman parte de nuestra cotidianidad. Su día a día nos muestra que la inteligencia artificial no es solo una promesa del futuro, sino una realidad presente que transforma silenciosamente la forma en que vivimos, trabajamos y nos relacionamos. 
 
@@ -487,7 +487,7 @@
 
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-        h2 1.5 Papel de la inteligencia artificial en el procesamiento de datos
+        h2 1.5 Papel de la IA en el procesamiento de datos
 
       .row.align-items-center.mb-5
         .col-lg-auto.mb-3.mb-md-4(data-aos="fade-left")
@@ -541,7 +541,7 @@
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Procesamiento de datos no estructurados.
               .tarjeta-flip__contenido.p-4.pb-5
                 h5.mb-4 Procesamiento de datos no estructurados.
-                p.pb-5 Con NLP y visión por computador, interpreta textos, audios, imágenes y videos, transformando información compleja en datos analizables.  
+                p.pb-5 Con #[em NLP] y visión por computador, interpreta textos, audios, imágenes y videos, transformando información compleja en datos analizables.  
   
       .pt-5
       .subt.mb-4(data-aos="fade-right")
@@ -549,7 +549,7 @@
           img(src='@/assets/curso/temas/t1/34.svg', alt='')
           h3.mb-0.px-3.pe-5 Impacto en distintas áreas
 
-      p(data-aos="fade-down") La Inteligencia Artificial ha transformado múltiples sectores gracias a su capacidad de analizar datos, optimizar procesos y generar predicciones precisas.
+      p(data-aos="fade-down") La inteligencia artificial ha transformado múltiples sectores gracias a su capacidad de analizar datos, optimizar procesos y generar predicciones precisas.
 
       .row.mb-5.text-center.justify-content-center(data-aos="fade-right")
           .col-md-6.col-lg.mb-5.mb-lg-0
@@ -594,7 +594,7 @@
               img.img-a.img-t(src="@/assets/curso/temas/t1/56.png")
               .tarjeta.bg-color-13
                 .p-4
-                  p.mb-0 #[b Procesamiento de lenguaje natural (NLP):] herramientas que posibilitan a los sistemas comprender, generar y manipular lenguaje humano en formato textual, facilitando la interacción hombre - máquina.
+                  p.mb-0 #[b Procesamiento de lenguaje natural (#[em NLP]):] herramientas que posibilitan a los sistemas comprender, generar y manipular lenguaje humano en formato textual, facilitando la interacción hombre - máquina.
 
       .subt.mb-5(data-aos="fade-right")
         .d-flex.align-items-center.deco

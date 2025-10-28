@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Flujos de proceso en Inteligencia Artificial
+      h1 Flujos de proceso en Inteligencia Artificial (IA)
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
@@ -49,7 +49,7 @@
           .col-lg-auto.my-0.my-md-4.my-sm-4.d-none.d-lg-block
             img.img-a.img-t(src="@/assets/curso/temas/t2/4.svg")
           .col-lg
-            p.mb-0 Este conjunto de pasos constituye un ciclo iterativo, ya que puede repetirse una y otra vez. Así es como los sistemas de IA parecen “aprender” con el tiempo: no porque piensen como los humanos, sino porque constantemente pasan por procesos de aprendizaje y corrección.                      
+            p.mb-0 Este conjunto de pasos constituye un ciclo iterativo, ya que puede repetirse una y otra vez. Así es como los sistemas de IA parecen “aprender” con el tiempo; no porque piensen como los humanos, sino porque constantemente pasan por procesos de aprendizaje y corrección.                      
         p De hecho, este flujo guarda cierta analogía con el aprendizaje humano: primero recibimos información, la organizamos, seleccionamos lo más importante, practicamos hasta comprenderlo, comprobamos lo aprendido en nuevas situaciones y, si nos equivocamos, corregimos para hacerlo mejor la próxima vez.
 
     .row.justify-content-center.mb-5
@@ -150,7 +150,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Video: Integra Salesforce y WhatsApp con dos clicks usando Treble
+                  h4.mb-1 Video: Integra Salesforce y WhatsApp con dos #[em clicks] usando Treble
                   p.mb-0 Se invita a explorar en siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=arr8nZw6K5g&ab_channel=trebleai')" target="_blank")

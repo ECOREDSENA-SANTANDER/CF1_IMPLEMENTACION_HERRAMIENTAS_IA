@@ -1,1 +1,1 @@
-module.exports = 'Inteligencia Artificial y productividad'
+module.exports = 'Inteligencia Artificial (IA) y productividad'
