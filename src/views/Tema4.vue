@@ -17,7 +17,7 @@
           .col-lg
             p.mb-0 Los procesos automatizados en inteligencia artificial permiten que los sistemas trabajen de forma autónoma con información no estructurada, utilizando diferentes capas y lógicas de tareas para tomar decisiones sin intervención humana directa. 
         .bg-color-1.p-3                                
-          p.mb-0 La #[strong información no estructurada] incluye datos que no siguen un formato fijo, como textos, imágenes, vídeos, grabaciones de voz y documentos digitales. La inteligencia artificial utiliza técnicas como el procesamiento del lenguaje natural (#[em NLP]), la visión computarizada y el reconocimiento de voz para analizar y extraer valor de estos datos, habilitando aplicaciones como análisis de sentimientos, detección de objetos e identificación de patrones complejos. 
+          p.mb-0 La #[strong información no estructurada] incluye datos que no siguen un formato fijo, como textos, imágenes, vídeos, grabaciones de voz y documentos digitales. La inteligencia artificial utiliza técnicas como el procesamiento del lenguaje natural (NLP), la visión computarizada y el reconocimiento de voz para analizar y extraer valor de estos datos, habilitando aplicaciones como análisis de sentimientos, detección de objetos e identificación de patrones complejos. 
 
     p.mb-4 Los procesos automatizados por IA suelen estar estructurados en diversas capas que trabajan juntas para lograr la autonomía y la eficiencia:   
 
@@ -121,8 +121,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Video: Qué son los #[em chatbots], para qué sirven y qué tipos de #[em chatbots] hay | Nuevas tecnologías
-                  p.mb-0 Se invita a explorar en siguiente video.
+                  h4.mb-1 Qué son los #[em chatbots], para qué sirven y qué tipos de #[em chatbots] hay | Nuevas tecnologías
+                  p.mb-0 Se invita a explorar el siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=Q6aNuo39nEM&ab_channel=GCFAprendeLibre')" target="_blank")
                     span Ir al sitio
@@ -170,8 +170,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Video: HABLEMOS DE... Cómo Netflix aplica la Inteligencia Artificial
-                  p.mb-0 Se invita a explorar en siguiente video.
+                  h4.mb-1 HABLEMOS DE... Cómo Netflix aplica la Inteligencia Artificial
+                  p.mb-0 Se invita a explorar el siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=D3yCuvyCOm4&ab_channel=MIOTITech%26BusinessSchool')" target="_blank")
                     span Ir al sitio

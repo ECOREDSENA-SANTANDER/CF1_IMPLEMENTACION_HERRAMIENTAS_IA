@@ -134,8 +134,8 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white
-                    h4.mb-1 Video: Principios fundamentales de la inteligencia artificial
-                    p.mb-0 Se invita a explorar en siguiente video.
+                    h4.mb-1 Principios fundamentales de la inteligencia artificial
+                    p.mb-0 Se invita a explorar el siguiente video.
                   .col-sm-auto
                     a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=qXCV8dQepnY&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA')" target="_blank")
                       span Ir al sitio
@@ -238,22 +238,22 @@
       .row.justify-content-center.mb-5
         .col-lg-9(data-aos="fade-right")        
           LineaTiempoD.color-acento-botones
-            .row(numero="1940s - 1950s" titulo="Los inicios de la IA")
+            .row(numero="1940 - 1950" titulo="Los inicios de la IA")
               .col-md-11
                 p El origen de la inteligencia artificial se sitúa a mediados del siglo XX, cuando comenzaron a desarrollarse las primeras bases teóricas. En 1943, McCulloch y Pitts diseñaron un modelo matemático de neuronas artificiales, antecedente directo de las redes neuronales actuales. Años más tarde, en 1950, Alan Turing publicó “#[em Computing Machinery and Intelligence]”, donde planteó la célebre pregunta “¿pueden pensar las máquinas?” y propuso el Test de Turing como criterio para evaluar la inteligencia de un sistema. En 1951 surgieron los primeros programas de ajedrez y, en 1956, durante la Conferencia de Dartmouth, John McCarthy acuñó el término “Inteligencia Artificial”, marcando el inicio formal de la disciplina.
-            .row(numero="1960s - 1970s" titulo="La era dorada y el primer invierno")
+            .row(numero="1960 - 1970" titulo="La era dorada y el primer invierno")
               .col-md-11
                 p Las décadas de 1960 y 1970 fueron consideradas la primera gran etapa de auge de la IA. En este periodo se desarrollaron programas capaces de resolver problemas matemáticos y lógicos, así como sistemas pioneros de procesamiento de lenguaje natural. Entre ellos destacó ELIZA (1966), que simulaba conversaciones con un terapeuta, y SHRDLU, capaz de comprender y ejecutar instrucciones en entornos virtuales limitados. Sin embargo, las expectativas superaron a los logros reales y la tecnología no alcanzó el rendimiento esperado. Esto dio paso al primer “invierno de la IA”, caracterizado por la reducción de la financiación y el desinterés institucional. 
-            .row(numero="1980s - 1990s" titulo="El resurgimiento y los sistemas expertos")
+            .row(numero="1980 - 1990" titulo="El resurgimiento y los sistemas expertos")
               .col-md-11
                 p En la década de 1980 la IA experimentó un resurgimiento gracias a los sistemas expertos, diseñados para reproducir la toma de decisiones en áreas específicas. Uno de los más destacados fue MYCIN, orientado al diagnóstico médico de enfermedades infecciosas. En 1986, Rumelhart, Hinton y Williams popularizaron el algoritmo de retro propagación, que permitió entrenar redes neuronales de manera más eficaz. Sin embargo, hacia finales de la década, los altos costos y limitaciones técnicas provocaron el segundo “invierno de la IA”. El campo recuperó impulso en los años 90, con avances en el aprendizaje automático, el reconocimiento de voz y el desarrollo de nuevas técnicas como las máquinas de soporte vectorial. En 1997, la IA alcanzó un hito histórico cuando Deep Blue, de IBM, derrotó al campeón mundial de ajedrez Garry Kasparov, demostrando la capacidad de las máquinas para superar a los humanos en tareas altamente complejas. 
-            .row(numero="2000s" titulo="La revolución de los datos ")
+            .row(numero="2000" titulo="La revolución de los datos ")
               .col-md-11
-                p Con la llegada de Internet y el acceso a grandes volúmenes de información, la IA entró en una fase de expansión sin precedentes. El auge del Big Data y la mayor capacidad de procesamiento facilitaron notables avances en el aprendizaje automático. En 2006, Geoffrey Hinton revitalizó el concepto de aprendizaje profundo (#[em Deep Learning]), que pronto se convertiría en la base de los sistemas más modernos. En paralelo, surgieron aplicaciones prácticas como la traducción automática, el reconocimiento de voz y los primeros proyectos de vehículos autónomos (Google, 2009). En 2011, el sistema Watson de IBM ganó el concurso Jeopardy, superando a los mejores jugadores humanos y mostrando avances impresionantes en el procesamiento del lenguaje natural. 
-            .row(numero="2010s" titulo="La expansión cotidiana de la IA")
+                p Con la llegada de internet y el acceso a grandes volúmenes de información, la IA entró en una fase de expansión sin precedentes. El auge del #[em big data] y la mayor capacidad de procesamiento facilitaron notables avances en el aprendizaje automático. En 2006, Geoffrey Hinton revitalizó el concepto de aprendizaje profundo (#[em Deep Learning]), que pronto se convertiría en la base de los sistemas más modernos. En paralelo, surgieron aplicaciones prácticas como la traducción automática, el reconocimiento de voz y los primeros proyectos de vehículos autónomos (Google, 2009). En 2011, el sistema Watson de IBM ganó el concurso Jeopardy, superando a los mejores jugadores humanos y mostrando avances impresionantes en el procesamiento del lenguaje natural. 
+            .row(numero="2010" titulo="La expansión cotidiana de la IA")
               .col-md-11
                 p Durante la década de 2010, la inteligencia artificial comenzó a integrarse en la vida diaria. En 2012, el modelo AlexNet revolucionó la visión por computadora al ganar la competencia ImageNet, gracias al uso de redes neuronales profundas. Poco después, en 2016, AlphaGo de DeepMind venció al campeón mundial de Go, un juego considerado mucho más complejo que el ajedrez. En esos mismos años, se popularizaron los asistentes virtuales como Siri, Alexa y Google Assistant, además de los sistemas de recomendación que hoy dominan plataformas de música, cine y redes sociales. En 2017, Google introdujo la arquitectura de los #[em Transformers], que dio origen a modelos de lenguaje de última generación como BERT y, posteriormente, GPT.
-            .row(numero="2020s" titulo="La era generativa y el presente")
+            .row(numero="2020" titulo="La era generativa y el presente")
               .col-md-11
                 p En los últimos años, la inteligencia artificial ha experimentado una auténtica revolución con la llegada de la IA generativa. En 2020, modelos de lenguaje a gran escala como GPT-3 mostraron su capacidad para producir textos coherentes y creativos. En 2022, herramientas como ChatGPT y DALL·E se popularizaron, demostrando el potencial de la IA en la generación de texto e imágenes de alta calidad. Desde entonces, han surgido múltiples desarrollos, como Bard de Google o modelos abiertos como LLaMA y Falcon, que han impulsado la democratización del acceso a esta tecnología. Actualmente, la IA se aplica en medicina de precisión, biología computacional, educación personalizada, arte digital y robótica autónoma, al tiempo que se plantean debates éticos, sociales y legales. Estos han motivado el desarrollo de regulaciones, como la AI Act en Europa, con el objetivo de garantizar un uso responsable y seguro de la inteligencia artificial.
                 p Además, la ética y la transparencia en la IA han surgido como preocupaciones fundamentales en el debate contemporáneo. La necesidad de un enfoque responsable y equitativo en el desarrollo de algoritmos se ha intensificado, impulsando iniciativas globales que abogan por la regulación y el uso responsable de la IA.                                                                                
@@ -341,7 +341,7 @@
         .col-lg-7(data-aos='fade-left')
           p La Inteligencia Artificial (IA) suele asociarse con conceptos futuristas, máquinas parlantes o programas avanzados capaces de escribir textos y generar imágenes. Sin embargo, gran parte de su impacto no está en los laboratorios ni en escenarios de ciencia ficción, sino en nuestra vida diaria. Desde las aplicaciones en el teléfono hasta los servicios de entretenimiento, la IA se ha integrado de manera tan natural que muchas veces la usamos sin darnos cuenta.
           .bg-color-4.p-3(data-aos="fade-down")
-            p.mb-0 Para ilustrar esta presencia invisible, presentamos la historia de MarIA, una persona común cuya rutina refleja cómo los algoritmos y sistemas inteligentes ya forman parte de nuestra cotidianidad. Su día a día nos muestra que la inteligencia artificial no es solo una promesa del futuro, sino una realidad presente que transforma silenciosamente la forma en que vivimos, trabajamos y nos relacionamos. 
+            p.mb-0 Para ilustrar esta presencia invisible, presentamos la historia de #[strong MarIA], una persona común cuya rutina refleja cómo los algoritmos y sistemas inteligentes ya forman parte de nuestra cotidianidad. Su día a día nos muestra que la inteligencia artificial no es solo una promesa del futuro, sino una realidad presente que transforma silenciosamente la forma en que vivimos, trabajamos y nos relacionamos. 
 
       .subt.mb-5(data-aos="fade-right")
         .d-flex.align-items-center.deco
@@ -421,7 +421,7 @@
             tr
               td.text-bold.text-center Imitación humana 
               td.text-start La IA busca reproducir funciones cognitivas humanas: percibir, razonar, aprender y decidir. No significa copiar al ser humano, sino inspirarse en sus procesos.
-              td.text-start Reconocimiento facial en smartphones; #[em chatbots] que simulan conversación.  
+              td.text-start Reconocimiento facial en #[em smartphones]; #[em chatbots] que simulan conversación.  
             tr
               td.text-bold.text-center Aprendizaje de datos 
               td.text-start El corazón de la IA: a través de ejemplos y grandes volúmenes de datos, los sistemas aprenden patrones y mejoran con la experiencia. Puede ser supervisado, no supervisado o por refuerzo.
@@ -484,10 +484,10 @@
         h2 1.5 Papel de la IA en el procesamiento de datos
 
       .row.align-items-center.mb-5
-        .col-lg-auto.mb-3.mb-md-4(data-aos="fade-left")
+        .col-lg-auto.mb-3.mb-md-4(data-aos="fade-right")
           img.img-a.img-t(src="@/assets/curso/temas/t1/45.png")
-        .col-lg(data-aos="fade-right")
-          p.mb-0 La Inteligencia Artificial (IA) desempeña un papel clave en el procesamiento de datos, ya que convierte grandes volúmenes de información en conocimiento útil para la toma de decisiones. En la era del #[em Big Data], donde los datos se generan de forma continua y masiva, los métodos tradicionales resultan insuficientes. La IA aporta soluciones avanzadas para analizar, interpretar y aprender a partir de esa información, optimizando tanto la velocidad como la precisión del proceso.
+        .col-lg(data-aos="fade-left")
+          p.mb-0 La Inteligencia Artificial (IA) desempeña un papel clave en el procesamiento de datos, ya que convierte grandes volúmenes de información en conocimiento útil para la toma de decisiones. En la era del #[em big data], donde los datos se generan de forma continua y masiva, los métodos tradicionales resultan insuficientes. La IA aporta soluciones avanzadas para analizar, interpretar y aprender a partir de esa información, optimizando tanto la velocidad como la precisión del proceso.
 
       .subt.mb-5(data-aos="fade-right")
         .d-flex.align-items-center.deco
@@ -535,7 +535,7 @@
                 h5.elem.py-2.m-3.text-center.bg-color-8.p-3.br-2 Procesamiento de datos no estructurados.
               .tarjeta-flip__contenido.p-4.pb-5
                 h5.mb-4 Procesamiento de datos no estructurados.
-                p.pb-5 Con #[em NLP] y visión por computador, interpreta textos, audios, imágenes y videos, transformando información compleja en datos analizables.  
+                p.pb-5 Con #[em (Natural Language Processing)] NLP y visión por computador, interpreta textos, audios, imágenes y videos, transformando información compleja en datos analizables.  
   
       .pt-5
       .subt.mb-4(data-aos="fade-right")
@@ -588,7 +588,7 @@
               img.img-a.img-t(src="@/assets/curso/temas/t1/56.png")
               .tarjeta.bg-color-13
                 .p-4
-                  p.mb-0 #[b Procesamiento de lenguaje natural (#[em NLP]):] herramientas que posibilitan a los sistemas comprender, generar y manipular lenguaje humano en formato textual, facilitando la interacción hombre - máquina.
+                  p.mb-0 #[b Procesamiento de lenguaje natural (NLP):] herramientas que posibilitan a los sistemas comprender, generar y manipular lenguaje humano en formato textual, facilitando la interacción hombre - máquina.
 
       .subt.mb-5(data-aos="fade-right")
         .d-flex.align-items-center.deco
@@ -682,8 +682,8 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white
-                    h4.mb-1 Video. TESLA: la Inteligencia Artificial marca la diferencia.
-                    p.mb-0 Se invita a explorar en siguiente video.
+                    h4.mb-1 TESLA: la Inteligencia Artificial marca la diferencia.
+                    p.mb-0 Se invita a explorar el siguiente video.
                   .col-sm-auto
                     a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=ut2JD8lpDgk&ab_channel=AutoIngenium')" target="_blank")
                       span Ir al sitio

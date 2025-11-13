@@ -23,7 +23,7 @@
       .col-lg-8.mb-3.mb-lg-0  
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg1")
           .div(titulo="Recolección de  datos")
-            p Los datos son la materia prima de cualquier sistema de IA. Sin ellos, la máquina no puede aprender. Pueden provenir de sensores, cámaras, micrófonos, bases de datos, registros históricos o incluso de la información que generan los usuarios en Internet. 
+            p Los datos son la materia prima de cualquier sistema de IA. Sin ellos, la máquina no puede aprender. Pueden provenir de sensores, cámaras, micrófonos, bases de datos, registros históricos o incluso de la información que generan los usuarios en internet. 
           .div(titulo="Preparación o limpieza de datos")
             p Una vez recopilada la información, se eliminan errores, duplicados e inconsistencias, y se organiza en un formato adecuado. Esto es clave, ya que los datos en bruto suelen estar desordenados y llenos de “ruido”. 
           .div(titulo="Selección de características o variables")
@@ -150,8 +150,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h4.mb-1 Video: Integra Salesforce y WhatsApp con dos #[em clicks] usando Treble
-                  p.mb-0 Se invita a explorar en siguiente video.
+                  h4.mb-1 Integra Salesforce y WhatsApp con dos #[em clicks] usando Treble
+                  p.mb-0 Se invita a explorar el siguiente video.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=arr8nZw6K5g&ab_channel=trebleai')" target="_blank")
                     span Ir al sitio

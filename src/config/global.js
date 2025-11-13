@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Inteligencia Artificial (IA) y productividad',
     Description:
-      'Este componente aborda los conceptos fundamentales y la evolución de la Inteligencia Artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <em>chatbots</em> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con Inteligencia Artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
+      'Este componente aborda los conceptos fundamentales y la evolución de la inteligencia artificial, destacando su historia, los flujos de procesos y los diferentes tipos de aprendizaje. Asimismo, explora sus aplicaciones en la vida cotidiana, como los <em>chatbots</em> y asistentes virtuales, e incorpora una reflexión sobre los principios éticos y los retos sociales que plantea su uso. También incluye ejemplos prácticos de automatización con inteligencia artificial y un análisis de las herramientas actuales disponibles tanto para usuarios como para empresas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -92,7 +92,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Herramientas de Inteligencia Artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
+          'Herramientas de inteligencia artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -159,15 +159,15 @@ export default {
     {
       tema: 'Papel de la IA en el procesamiento de datos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Procesamiento de datos para modelos de inteligencia artificial</em>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Procesamiento de datos para modelos de inteligencia artificial.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=XjsAcMuYM2Y&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
     {
-      tema: 'Beneficios de los flujos de proceso',
+      tema: 'Beneficios de los flujos de proceso en IA',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Integración y gestión avanzada de datos para inteligencia artificial</em>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Integración y gestión avanzada de datos para inteligencia artificial.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=mxb4fQq2CNw&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA ',
@@ -176,7 +176,7 @@ export default {
       tema:
         'Herramientas de inteligencia artificial (asistentes virtuales, de automatización, plataformas sin código y bajo código)',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Machine Learning con Python</em>.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023). Machine Learning con Python.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=noMy4-zjR9Q&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA  ',
@@ -242,49 +242,49 @@ export default {
   referencias: [
     {
       referencia:
-        'Chollet, F. (2021). <em>Deep learning con Python<em> (2.ª ed.). Ediciones Anaya Multimedia.',
+        'Chollet, F. (2021). Deep learning con Python (2.ª ed.). Ediciones Anaya Multimedia.',
     },
     {
       referencia:
-        'Chollet, F. (2022). <em>Deep learning con Python<em> (2.ª ed., J. Barceló, Trad.). Anaya Multimedia. (Obra original publicada en 2021).',
+        'Chollet, F. (2022). Deep learning con Python (2.ª ed., J. Barceló, Trad.). Anaya Multimedia. (Obra original publicada en 2021).',
     },
     {
       referencia:
-        'Cuatrecasas. (2024, noviembre 12). <em>Guía para el uso responsable de IA y datos personales en Colombia<em>. ',
+        'Fernández López, N. (2024). Guía para el uso responsable de IA y datos personales en Colombia. Cuatrecasas.',
       link:
         'https://www.cuatrecasas.com/es/spain/tecnologia-medios-digitales/art/guia-uso-responsable-ia-datos-personales-colombia',
     },
     {
       referencia:
-        'De Prado, M. (2023). <em>Inteligencia artificial y análisis de datos: Fundamentos y aplicaciones</em>. Ediciones Pirámide.',
+        'De Prado, M. (2023). Inteligencia artificial y análisis de datos: Fundamentos y aplicaciones. Ediciones Pirámide.',
     },
     {
       referencia:
-        'Fernández-Macías, E., & Sánchez, Á. (2022). <em>El impacto de la inteligencia artificial en el empleo y el trabajo</em>. Fundación Cotec.',
+        'Fernández-Macías, E., & Sánchez, Á. (2022). El impacto de la inteligencia artificial en el empleo y el trabajo. Fundación Cotec.',
     },
     {
       referencia:
-        'García, E., & López, F. (2023). <em>Inteligencia artificial: Fundamentos, ética y aplicaciones</em>. Alfaomega.',
+        'García, E., & López, F. (2023). Inteligencia artificial: Fundamentos, ética y aplicaciones. Alfaomega.',
     },
     {
       referencia:
-        'Goodfellow, I., Bengio, Y., & Courville, A. (2022). <em>Deep learning: Introducción práctica con Python</em> (2.ª ed., J. Cordero, Trad.). Marcombo.',
+        'Goodfellow, I., Bengio, Y., & Courville, A. (2022). Deep learning: Introducción práctica con Python (2.ª ed., J. Cordero, Trad.). Marcombo.',
     },
     {
       referencia:
-        'González, M. A. (2023). <em>Inteligencia artificial generativa: Fundamentos, herramientas y aplicaciones prácticas</em>. Editorial Alfaomega.',
+        'González, M. A. (2023). Inteligencia artificial generativa: Fundamentos, herramientas y aplicaciones prácticas. Editorial Alfaomega.',
     },
     {
       referencia:
-        'Lind, D. A., Marchal, W. G., & Wathen, S. A. (2022). <em>Estadística aplicada a los negocios y la economía </em>(17.ª ed.). Cengage Learning.',
+        'Lind, D. A., Marchal, W. G., & Wathen, S. A. (2022). Estadística aplicada a los negocios y la economía (17.ª ed.). Cengage Learning.',
     },
     {
       referencia:
-        'Maldonado, G. (2021).<em> Estadística aplicada a las ciencias sociales y administrativas</em>. Ediciones de la U.',
+        'Maldonado, G. (2021). Estadística aplicada a las ciencias sociales y administrativas. Ediciones de la U.',
     },
     {
       referencia:
-        'Provost, F., & Fawcett, T. (2020).<em> Data science para los negocios: Lo que necesitas saber sobre minería de datos y análisis predictivo</em>. O’Reilly Media.',
+        'Provost, F., & Fawcett, T. (2020). Data science para los negocios: Lo que necesitas saber sobre minería de datos y análisis predictivo. O’Reilly Media.',
     },
     {
       referencia:
@@ -352,7 +352,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
