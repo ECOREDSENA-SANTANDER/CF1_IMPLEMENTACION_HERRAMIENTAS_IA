@@ -143,7 +143,7 @@
             .anexo__icono
               img(src="@/assets/curso/temas/t3/18.svg")
             .anexo__texto
-              p #[b Automatiza Procesos sin Programar con Copilot y Power Automate.] Se invita a explorar en siguiente video.         
+              p #[b Automatiza Procesos sin Programar con Copilot y Power Automate.] Se invita a explorar el siguiente video.         
       .col-lg-5.mb-3(data-aos="fade-left")
         .br-color-2.p-3.br-1.h-100
           h5 Ejemplo 2:
@@ -152,7 +152,7 @@
             .anexo__icono
               img(src="@/assets/curso/temas/t3/18.svg")
             .anexo__texto
-              p #[b Automatiza Google Sheets con Apps Script + ChatGPT | Sin Saber Macros.] Se invita a explorar en siguiente video.              
+              p #[b Automatiza Google Sheets con Apps Script + ChatGPT | Sin Saber Macros.] Se invita a explorar el siguiente video.              
 
 
 </template>
