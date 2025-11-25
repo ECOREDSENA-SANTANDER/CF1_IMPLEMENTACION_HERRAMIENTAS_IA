@@ -24,7 +24,7 @@ export default {
       tema: 'Inteligencia Artificial (IA) y productividad',
       titulo: 'Cuestionario',
       introduccion:
-        'Objetivo: evaluar y reforzar el conocimiento adquirido sobre la inteligencia artificial y sus conceptos relacionados.',
+        '<b>Objetivo:</b> evaluar y reforzar el conocimiento adquirido sobre la inteligencia artificial y sus conceptos relacionados.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!...',
       titulo_reprobado: 'VUELVA A INTENTARLO...',

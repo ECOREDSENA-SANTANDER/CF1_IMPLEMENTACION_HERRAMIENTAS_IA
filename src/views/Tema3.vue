@@ -130,7 +130,7 @@
           .col-6
             img(src='@/assets/curso/temas/t3/17.svg', alt='')          
         h5.text-center Análisis predictivo
-        p Plataformas como IBM Watson y Azure Machine Learning procesan grandes volúmenes de datos para identificar patrones, prever demanda y apoyar la toma de decisiones.                                                   
+        p Plataformas como IBM Watson y Azure #[em Machine Learning] procesan grandes volúmenes de datos para identificar patrones, prever demanda y apoyar la toma de decisiones.                                                   
 
     p.mb-4 También podemos hacer uso de plataformas de inteligencia artificial sin código y bajo código, que permiten diseñar, entrenar e implementar soluciones IA sin necesidad de programar, facilitando el acceso a estas tecnologías para usuarios no técnicos.
 
